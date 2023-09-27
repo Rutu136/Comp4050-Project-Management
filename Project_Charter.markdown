@@ -70,23 +70,22 @@ the revised version.\]
 
 ## Purpose of Project Charter
 
-\[Provide the purpose of the project charter.\]
-
-The *\<Project Name\>* project charter documents and tracks the
+The Online Virtual Phone System project charter documents and tracks the
 necessary information required by decision maker(s) to approve the
 project for funding. The project charter should include the needs,
 scope, justification, and resource commitment as well as the project's
 sponsor(s) decision to proceed or not to proceed with the project. It is
 created during the Initiating Phase of the project.
 
-The intended audience of the *\<Project Name\>* project charter is the
-project sponsor and senior leadership.
+The intended audience of the Online Virtual Phone System project charter is the project sponsor and senior leadership.
 
 # Project And Product Overview
 
-\[Typically, the description should answer who, what, when and where, in
-a concise manner. It should also state the estimated project duration
-(e.g., 18 months) and the estimated project budget (e.g., \$1.5M).
+The Online Virtual Phone System is a cloud-based solution that enables users to make calls over the internet without the need for a traditional physical phone line which will compete with Skype. The system will allow users make and recieve call on both their desktop app, mobile app and all from a single business phone number.   
+
+The estimated project duration will be 1 year but Minimum Viable Product will be delivered within 3 months.
+
+The estimated project budget is $500K for the whole project, but only $120K can be spent during first 3 months of the project.
 
 # Justification
 
