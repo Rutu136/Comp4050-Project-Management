@@ -288,5 +288,5 @@ outlined within this document.\]
 
 | Document Name and Version | Description | Location  |
 |----------|----------|----------|
-| The Project Charter Timeline | Retrieved general idea for timeline  |\https://professorpm.com/2014/02/02/the-project-charter-timeline/|
-| Software release life cycle | Retrieved general idea for testing processes and timelines | https://en.wikipedia.org/wiki/Software_release_life_cycle#:~:text=Alpha%20testing%20is%20the%20first,the%20organization%20that%20developed%20it.
+| The Project Charter Timeline | Retrieved general idea for milestone  |\https://professorpm.com/2014/02/02/the-project-charter-timeline/|
+| Software release life cycle | Retrieved general idea for testing processes and milestone | https://en.wikipedia.org/wiki/Software_release_life_cycle#:~:text=Alpha%20testing%20is%20the%20first,the%20organization%20that%20developed%20it.
