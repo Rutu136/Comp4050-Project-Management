@@ -10,14 +10,6 @@ Team Name: Team Endgame
 
 ---
 
-\[Provide information on how the development and distribution of the
-Project Charter Template up to the final point of approval was
-controlled and tracked. Use the table below to provide the version
-number, the author implementing the version, the date of the version,
-the name of the person approving the version, the date that particular
-version was approved, and a brief description of the reason for creating
-the revised version.\]
-
 | Verison Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
 | 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
