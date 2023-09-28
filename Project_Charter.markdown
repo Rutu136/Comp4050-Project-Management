@@ -214,11 +214,18 @@ consideration prior to the initiation of the project.
 
 ## Stakeholders (Internal and External)
 
+#### Internal
+
 - Project Sponsors
 - Project Managers
 - Administrators
 - End Users
 - Developers and Development Team
+- Quality Assurance Team
+
+#### External
+
+- Government Telecommunication Authorities
 - Billing Department
 - IT Department
 - Third Parties
@@ -235,7 +242,7 @@ consideration prior to the initiation of the project.
 #  Project Charter Approval
 
 The undersigned acknowledge they have reviewed the project charter and
-authorize and fund the *\<Project Name\>* project. Changes to this
+authorize and fund the Online Virtual Phone System project. Changes to this
 project charter will be coordinated with and approved by the undersigned
 or their designated representatives.
 
