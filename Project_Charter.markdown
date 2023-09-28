@@ -13,7 +13,8 @@ Team Name: Team Endgame
 | Verison Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
 | 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
-| 1.1 | Dharmit Anghan | September 27, 2023 | TBD | TBD | Added Timelines, Assumptions, Constraints and Risks |
+| 1.1 | Dharmit Anghan | September 27, 2023 | Rutu Barvaliya | 2023-09-28 | Added Timelines, Assumptions, Constraints and Risks |
+| 1.2 | Rutu Barvaliya  | September 28, 2023 | TBD | TBD | Added Stakeholders, Roles and Responsibilities |
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
@@ -213,17 +214,22 @@ consideration prior to the initiation of the project.
 
 ## Stakeholders (Internal and External)
 
-\[Examples of stakeholders include an epidemiologist performing a
-behavioral research project and people in the field collecting data
-using a software application (the proposed project) to collect the data
-required for a behavioral research project.\]
+- Project Sponsors
+- Project Managers
+- Administrators
+- End Users
+- Developers and Development Team
+- Billing Department
+- IT Department
+- Third Parties
 
 ## Roles and Responsibilities
 
-\[Depending on your project organization, you may modify the roles and
-responsibilities listed in the table below.\] \[You can put the project
-sponsor as TA\] \[Project manager could be the member take the role for
-this round.\]
+| Name & Organization | Project Role | Project Responsibilities |
+|----------|----------|----------|
+| Shayan (TA), OVPS | Project Sponsor | A project sponsor who act as the project’s champion, providing direction, provides financial resources and support to the team.  In the context of this document, this person approves the request for funding, approves the project scope represented in this document, and sets the priority of the project relative to other projects in their area of responsibility. |
+| Dharmit Anghan, University of Manitoba | Project Manager | A project manager is who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. They also provide critical information to the team member and stakeholders to keep project on track. |
+| Breanna  Brown, University of Manitoba | Developer | A developer who performs day-to-day development and maintenence of the project including coding and designing.  |
 
 
 #  Project Charter Approval
@@ -277,9 +283,10 @@ outlined within this document.\]
 
 # APPENDIX A: REFERENCES
 
-\[Insert the name, version number, description, and physical location of
-any documents referenced in this document. Add rows to the table as
-necessary.\]
-
 > The following table summarizes the documents referenced in this
 > document.
+
+| Document Name and Version | Description | Location  |
+|----------|----------|----------|
+| The Project Charter Timeline | Retrieved general idea for timeline  |\https://professorpm.com/2014/02/02/the-project-charter-timeline/|
+| Software release life cycle | Retrieved general idea for testing processes and timelines | https://en.wikipedia.org/wiki/Software_release_life_cycle#:~:text=Alpha%20testing%20is%20the%20first,the%20organization%20that%20developed%20it.
