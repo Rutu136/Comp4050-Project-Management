@@ -20,7 +20,8 @@ the revised version.\]
 
 | Verison Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
-| 1.0 | Rutu Barvaliya  | September 26, 2023 | TBD | TBD | TBD |
+| 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
+| 1.1 | Dharmit Anghan | September 27, 2023 | TBD | TBD | Added Timelines, Assumptions, Constraints and Risks |
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
@@ -124,16 +125,54 @@ Specifically address items that are out of scope.\]
 
 ## Timeline
 
-\[An example of a high-level timeline is provided below.\]
+The following is the timeline for Minimum Viable Product (MVP) of the project with a duration of 13 weeks.
+
+![Timeline](./Timeline.jpg)
+
+
+The following is the timeline for the full system of the project with a duration of 1 year.
+
+![Timeline2](./Timeline2.jpg)
+<!-- ```
+  User feedback           Requirement Analysis   Developed             System Development
+  Completed               Completed              Prototype             Completed
+  ----------------------  -------------------    -------------------    -------------------       
+          |                    |                    |                    |                                                            
+----------|--------------------|--------------------|--------------------|--------------------
+          |                    |                    |                    |                                                            
+        09/30               10/14                 10/28                11/30                
+```  -->
 
 ## Executive Milestones 
 
-\[Example: For CPIC major/tactical projects, these milestones could be
-used to complete the Funding Plan/Cost and Schedule section of the OMB
-Exhibit 300.\]
-
-The table below lists the high-level Executive Milestones of the project
+The table below lists the high-level Executive Milestones of the project for the next 13 weeks
 and their estimated completion timeframe.
+
+| Executive Milestones                            | Estimated Completion Timeframe                   |
+| ---------------------------------------------- | ----------------------------------------------- |
+| Project Draft Initiation and Authorization | Approximately 2 weeks after Project Kickoff |
+| Official Project Initiation  | Around 4 weeks after Project Kickoff |
+| Gathering Requirements and Documentation | Roughly 6 weeks after Project Kickoff |
+| Detailed Project Planning and Resource Allocation | About 7 weeks after Project Kickoff |
+| Prototype Development and Review | Between 8 to 9 weeks after Project Kickoff |
+| Full System Development and Integration | Expected around the 13th week of the Project |
+
+The table below lists the high-level Executive Milestones of the project for the next 1 year
+and their estimated completion timeframe.
+
+| Key Project Stages                             | Anticipated Completion Timeline                 |
+| --------------------------------------------- | ----------------------------------------------- |
+| User feedback and Prototype Refinement       | Approximately 2 weeks after Project Kickoff |
+| Detailed Project Planning and Resource Allocation | Within 4 weeks after Project Kickoff        |
+| System Design and Architecture                | Around 8 weeks after Project Kickoff        |
+| Alpha Release                                 | Approximately 14 weeks after Project Kickoff |
+| Beta Testing and User Feedback                | Roughly 18 weeks after Project Kickoff       |
+| System Refinement and Optimization            | About 22 weeks after Project Kickoff        |
+| Full System Development and Integration       | Expected completion by 30 weeks after Project Kickoff |
+| User Acceptance Testing                       | Around 36 weeks after Project Kickoff       |
+| Finalization and Documentation                | Approximately 40 weeks after Project Kickoff |
+| Deployment and Go-Live                        | Within 52 weeks after Project Kickoff |
+
 
 
 # Assumptions, Constraints And Risks
@@ -147,32 +186,36 @@ into the system.\]
 This section identifies the statements believed to be true and from
 which a conclusion was drawn to define this project charter.
 
-1.  \[Insert description of the first assumption.\]
-
-2.  *\[Insert description of the second assumption.\]*
+1.  **Client Access:** The client will have provide necessary access to the required 
+    for the virtual call system.
+2.  **Administrator Access:** Multiple administrators will be able to access the system 
+    to manage the system. However, only one administrator will be able to access the system at a time.
+3.  **User Privilages:** User privilages are limited to "originate calls" and "receive calls".
+4.  **IP Network Reliability:** The IP network will be reliable and sockets are default form of communication.
+5.  **Database Reliability:** The database will be reliable and prevent data loss and inconsistencies.
+6.  **Billing:** The system will be able to bill the users based on the usage of the system with precision.
+   
 
 ## Constraints
-
-\[Example: There might be time constraints on developing a system that
-is used to track data of highly infectious diseases like SARS.\]
 
 This section identifies any limitation that must be taken into
 consideration prior to the initiation of the project.
 
-1.  *\[Insert description of the first constraint.\]*
-
-2.  *\[Insert description of the second constraint.\]*
+1.  **Time Constraints:** The project is constrained to be completed with a time frame of 13 weeks for a Minimum Viable Product (MVP) and further 1 year for a full system, Any changes to the timeline will be discussed with the client.
+2.  **Resource Constraints:** The project is constrained to be completed with a budget of $120K for MVP and $500K for the whole project. Any changes to the budget will be discussed with the client.
+3.  **Regulatory and Compliance Constraint:** The system must comply with all the regulatory requirements of the country of deployment.
+4.  **IP Network Availability Constraint:** The system relies on the availability of the IP network for communication.
+5.  **Scalability Constraint:** The system must be designed to be scalable for future growth.
 
 ## Risks
 
-\[Example: The risk of accessibility or unavailability of public health
-partners for obtaining requirements to develop a data collection system
-may delay project deliverables. A possible mitigation strategy might be
-to schedule requirement sessions with the partners as early as possible.
-List the risks that the project sponsor should be aware of before making
-a decision on funding the project, including risks of not funding the
-project.\]
-
+| Risks                             | Mitigation                 |
+| --------------------------------------------- | ----------------------------------------------- |
+| Security and Access | Implement robust security measures as encryption and authentication |
+| Data Loss | Use checksums and data validation techniques to detect and prevent data corruption. |
+| Call Quality and Latency | Use a reliable and fast IP network to ensure call quality and low latency. |
+| Network Overload | Use a scalable system to handle the load and prevent network overload. |
+| Billing Errors | Implement accurate mathematical algorithms to calculate the bill and provide bill auditing. |
 
 # Project Organization
 
