@@ -12,10 +12,12 @@ Team Name: Team Endgame
 
 | Version Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
-| 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
-| 1.1 | Dharmit Anghan | September 27, 2023 | TBD | TBD | Added Timelines, Assumptions, Constraints and Risks |
-| 1.2 | Breanna Brown | September 28, 2023 | TBD | TBD | Added Scope and Objectives |
-| 1.3 | Akinsola Oluwademilade | September 28, 2023 | TBD | TBD | Added Major Deliverables and High-Level Requirements
+| 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction, Project And Product Overview |
+| 1.1 | Rutu Barvaliya | September 27, 2023 | Dharmit Anghan, Akinsola Oluwademilade | 2023-09-27 | Added Stakeholders, Roles and Responsibilities
+| 1.2 | Breanna Brown | September 27, 2023 | Rutu Barvaliya, Dharmit Anghan | 2023-09-29 | Added Scope, Objectives |
+| 1.3 | Akinsola Oluwademilade | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Major Deliverables, High-Level Requirements |
+| 1.4 | Dharmit Anghan | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Duration, Assumptions, Constraints and Risks |
+| 1.5 | Rutu Barvaliya | September 29, 2023 | Breanna Brown, Dharmit Anghan, Akinsola Oluwademilade | 2023-09-29 | Final Review
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
@@ -59,7 +61,7 @@ Team Name: Team Endgame
 
 [7. Project Charter Approval](#project-charter-approval)
 
-[APPENDIX A: REFERENCES](#appendix-a:-references)
+[APPENDIX A: REFERENCES](#references)
 
 # Introduction
 
@@ -115,9 +117,9 @@ product, service or result must meet in order for the project objectives
 to be satisfied.
 | Major Deliverables          | Deliverable Description
 |------------------------|-----------------------|
-| System implementation | The system's successful implementation including server infrastructure, client applications, dialing plan system, and billing module.
-| client documentation | Comprehensive documentation for clients, detailing the system's features, functionalities, and usage instructions.
-| User manual | A user manual provided to customers, offering step-by-step guidance on using the virtual phone system effectively.
+| System Implementation | The system's successful implementation including server infrastructure, client applications, dialing plan system, and billing module.
+| Client Documentation | Comprehensive documentation for clients, detailing the system's features, functionalities, and usage instructions.
+| User Manual | A user manual provided to customers, offering step-by-step guidance on using the virtual phone system effectively.
 
 
 ## Scope
@@ -190,10 +192,6 @@ and their estimated completion timeframe.
 
 ## Assumptions
 
-\[Example: The system is being developed to capture data from public
-health partners. One assumption is that data is entered electronically
-into the system.\]
-
 This section identifies the statements believed to be true and from
 which a conclusion was drawn to define this project charter.
 
@@ -205,7 +203,7 @@ which a conclusion was drawn to define this project charter.
 4.  **IP Network Reliability:** The IP network will be reliable and sockets are default form of communication.
 5.  **Database Reliability:** The database will be reliable and prevent data loss and inconsistencies.
 6.  **Billing:** The system will be able to bill the users based on the usage of the system with precision.
-   
+7. **Third Parties:** The client will be contacting and responsible to get access to third parties APIs once request has been submitted by project managers.
 
 ## Constraints
 
@@ -232,32 +230,41 @@ consideration prior to the initiation of the project.
 
 ## Stakeholders (Internal and External)
 
-\[Examples of stakeholders include an epidemiologist performing a
-behavioral research project and people in the field collecting data
-using a software application (the proposed project) to collect the data
-required for a behavioral research project.\]
+#### Internal
+
+- Project Sponsors
+- Project Manager
+- Developers and Development Team
+- Quality Assurance Team
+- Administrators
+- IT Department
+- End Users
+
+#### External
+
+- Billing Department
+- Third Parties
+- Government Telecommunication Authorities
 
 ## Roles and Responsibilities
 
-\[Depending on your project organization, you may modify the roles and
-responsibilities listed in the table below.\] \[You can put the project
-sponsor as TA\] \[Project manager could be the member take the role for
-this round.\]
-
+| Name & Organization | Project Role | Project Responsibilities |
+|----------|----------|----------|
+| Shayan (TA), OVPS | Project Sponsor | A project sponsor who act as the project’s champion, providing direction, provides financial resources and support to the team.  In the context of this document, this person approves the request for funding, approves the project scope represented in this document, and sets the priority of the project relative to other projects in their area of responsibility. |
+| Project Manager, Team Endgame | Project Manager | A project manager is who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. They also provide critical information to the team member and stakeholders to keep project on track. |
+| Developer, Team Endgame | Developer | A person who performs day-to-day development and maintenence of the project including coding and designing.  |
+| QA, Team Endgame | Quality Assurance Engineer | Responsible to test the Quaility of the system, Identify bugs and helps to deliver high-quality system that exceeds user expectations. |
+| Admin, OVPS | System Managers | Manage Online Virtual Phone System software, User accounts and their personal information, User authentication and Troubleshooting. |
+| IT, OVPS | IT Administrator | Take care of Hardware maintenance, Security Risk, Network Management, Infrastructure Planning, Developer Support, and User Support. |
+| End User, Team Endagem/OVPS | Users | Provides feedback on user experience and system functionalities. |
 
 #  Project Charter Approval
 
 The undersigned acknowledge they have reviewed the project charter and
-authorize and fund the *\<Project Name\>* project. Changes to this
+authorize and fund the Online Virtual Phone System project. Changes to this
 project charter will be coordinated with and approved by the undersigned
 or their designated representatives.
 
-\[List the individuals whose signatures are desired. Examples of such
-individuals are Business Steward, Project Manager or Project Sponsor.
-Add additional lines for signature as necessary. Although signatures are
-desired, they are not always required to move forward with the practices
-outlined within this document.\]
-
   ------------- ------------------------------------ ------- --------------
   Signature:                                         
   
@@ -294,11 +301,12 @@ outlined within this document.\]
   Role:                                                      
   ------------- ------------------------------------ ------- --------------
 
-# APPENDIX A: REFERENCES
-
-\[Insert the name, version number, description, and physical location of
-any documents referenced in this document. Add rows to the table as
-necessary.\]
+# REFERENCES
 
 > The following table summarizes the documents referenced in this
 > document.
+
+| Document Name and Version | Description | Location  |
+|----------|----------|----------|
+| The Project Charter Timeline | Retrieved general idea for milestone  |\https://professorpm.com/2014/02/02/the-project-charter-timeline/|
+| Software release life cycle | Retrieved general idea for testing processes and milestone | https://en.wikipedia.org/wiki/Software_release_life_cycle#:~:text=Alpha%20testing%20is%20the%20first,the%20organization%20that%20developed%20it.
