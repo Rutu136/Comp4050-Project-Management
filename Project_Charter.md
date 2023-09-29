@@ -17,7 +17,7 @@ Team Name: Team Endgame
 | 1.2 | Breanna Brown | September 27, 2023 | Rutu Barvaliya, Dharmit Anghan | 2023-09-29 | Added Scope, Objectives |
 | 1.3 | Akinsola Oluwademilade | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Major Deliverables, High-Level Requirements |
 | 1.4 | Dharmit Anghan | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Duration, Assumptions, Constraints and Risks |
-
+| 1.5 | Rutu Barvaliya | September 29, 2023 | Breanna Brown, Dharmit Anghan, Akinsola Oluwademilade | 2023-09-29 | Final Review
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
