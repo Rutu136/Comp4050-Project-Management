@@ -108,11 +108,15 @@ to be satisfied.
 
 ## Scope
 
-We will create mobile applications that will establish and maintain connections between users to facilitate a voice call. The project will not involve supplying the servers, hardware or operating systems required to run the system. 
+In-scope: 
+We will create mobile applications that will establish and maintain connections between users to facilitate a voice call.
+We will create a user interface that will allow users to make a payment from within the application. 
 
-We will create a user interface that will allow users to input their payment information, but the payment will be routed through a third party to complete the transaction. 
-
-The ability to integrate with any other third party applications not previously specified will not be provided. 
+Out-of-scope: 
+The project will not involve supplying the servers, hardware or operating systems required to run the system. 
+No other forms of communication (ie. video calling, photo sharing, messaging, etc.) will be provided. 
+Payment will be routed through a third party to complete the transaction. 
+The ability to integrate with any other third party applications, aside from what was previously specified, will not be provided. 
 
 # Duration
 
