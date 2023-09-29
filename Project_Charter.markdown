@@ -10,12 +10,13 @@ Team Name: Team Endgame
 
 ---
 
-| Verison Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
+| Version Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
 | 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
 | 1.1 | Dharmit Anghan | September 27, 2023 | Rutu Barvaliya | 2023-09-28 | Added Timelines, Assumptions, Constraints and Risks |
-| 1.2 | Breanna Brown | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Scope and Objectives |
-| 1.3 | Rutu Barvaliya  | September 28, 2023 | TBD | TBD | Added Stakeholders, Roles and Responsibilities |
+| 1.2 | Breanna Brown | September 28, 2023 | Rutu Barvaliya, Dharmit Anghan | 2023-09-29 | Added Scope and Objectives |
+| 1.3 | Akinsola Oluwademilade | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Major Deliverables and High-Level Requirements |
+| 1.4 | Rutu Barvaliya | September 29, 2023 | TBD | TBD | Added Stakeholders, Roles and Responsibilities
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
@@ -99,12 +100,25 @@ The objectives of the Online Virtual Phone System are as follows:
 The following table presents the requirements that the project's
 product, service or result must meet in order for the project objectives
 to be satisfied.
+|Req#  | Requirement Description | Type
+|-----------------------|-----------------------|----------------------|
+| 1 | System should allow users to make and receive calls through the internet and cloud| Functional
+| 2 | Users should be able to make and receive calls on a desktop app, mobile phone, all from a single business phone number | Functional
+| 3 | System should follow a client-server model | Functional
+| 4 | System monitors each client for events such as numbers being dialed | Functional
+| 5 | The system shall support up to 500 simultaneous calls with a maximum audio lag of 200 milliseconds | Non-functional
+| 6 | User data shall be encrypted using AES-256. Administrators shall be notified after three failed attempts | Non-functional
 
 ## Major Deliverables
 
 The following table presents the major deliverables that the project's
 product, service or result must meet in order for the project objectives
 to be satisfied.
+| Major Deliverables          | Deliverable Description
+|------------------------|-----------------------|
+| System Implementation | The system's successful implementation including server infrastructure, client applications, dialing plan system, and billing module.
+| Client Documentation | Comprehensive documentation for clients, detailing the system's features, functionalities, and usage instructions.
+| User Manual | A user manual provided to customers, offering step-by-step guidance on using the virtual phone system effectively.
 
 
 ## Scope
