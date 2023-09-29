@@ -61,7 +61,7 @@ Team Name: Team Endgame
 
 [7. Project Charter Approval](#project-charter-approval)
 
-[APPENDIX A: REFERENCES](#appendix-a:-references)
+[APPENDIX A: REFERENCES](#references)
 
 # Introduction
 
@@ -301,7 +301,7 @@ or their designated representatives.
   Role:                                                      
   ------------- ------------------------------------ ------- --------------
 
-# APPENDIX A: REFERENCES
+# REFERENCES
 
 > The following table summarizes the documents referenced in this
 > document.
