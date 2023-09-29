@@ -10,7 +10,7 @@ Team Name: Team Endgame
 
 ---
 
-| Verison Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
+| Version Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
 | 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
 | 1.1 | Dharmit Anghan | September 27, 2023 | TBD | TBD | Added Timelines, Assumptions, Constraints and Risks |
