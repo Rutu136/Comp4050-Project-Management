@@ -15,6 +15,7 @@ Team Name: Team Endgame
 | 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
 | 1.1 | Dharmit Anghan | September 27, 2023 | TBD | TBD | Added Timelines, Assumptions, Constraints and Risks |
 | 1.2 | Breanna Brown | September 28, 2023 | TBD | TBD | Added Scope and Objectives |
+| 1.3 | Akinsola Oluwademilade | September 28, 2023 | TBD | TBD | Added Major Deliverables and High-Level Requirements
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
