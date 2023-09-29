@@ -183,8 +183,7 @@ which a conclusion was drawn to define this project charter.
 4.  **IP Network Reliability:** The IP network will be reliable and sockets are default form of communication.
 5.  **Database Reliability:** The database will be reliable and prevent data loss and inconsistencies.
 6.  **Billing:** The system will be able to bill the users based on the usage of the system with precision.
-7. **Government Telecommunication Authorities:** Approval from government telecommunication authorites will be handled by clients directly.
-8. **Third Parties:** The client will be contacting and responsible to get access to third parties APIs once request has been submitted by project managers.
+7. **Third Parties:** The client will be contacting and responsible to get access to third parties APIs once request has been submitted by project managers.
 
 ## Constraints
 
@@ -214,27 +213,30 @@ consideration prior to the initiation of the project.
 #### Internal
 
 - Project Sponsors
-- Project Managers
-- Administrators
-- End Users
+- Project Manager
 - Developers and Development Team
 - Quality Assurance Team
+- Administrators
+- IT Department
+- End Users
 
 #### External
 
-- Government Telecommunication Authorities
 - Billing Department
-- IT Department
 - Third Parties
+- Government Telecommunication Authorities
 
 ## Roles and Responsibilities
 
 | Name & Organization | Project Role | Project Responsibilities |
 |----------|----------|----------|
 | Shayan (TA), OVPS | Project Sponsor | A project sponsor who act as the project’s champion, providing direction, provides financial resources and support to the team.  In the context of this document, this person approves the request for funding, approves the project scope represented in this document, and sets the priority of the project relative to other projects in their area of responsibility. |
-| Dharmit Anghan, University of Manitoba | Project Manager | A project manager is who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. They also provide critical information to the team member and stakeholders to keep project on track. |
-| Breanna  Brown, University of Manitoba | Developer | A developer who performs day-to-day development and maintenence of the project including coding and designing.  |
-
+| Project Manager, Team Endgame | Project Manager | A project manager is who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. They also provide critical information to the team member and stakeholders to keep project on track. |
+| Developer, Team Endgame | Developer | A person who performs day-to-day development and maintenence of the project including coding and designing.  |
+| QA, Team Endgame | Quality Assurance Engineer | Responsible to test the Quaility of the system, Identify bugs and helps to deliver high-quality system that exceeds user expectations. |
+| Admin, OVPS | System Managers | Manage Online Virtual Phone System software, User accounts and their personal information, User authentication and Troubleshooting. |
+| IT, OVPS | IT Administrator | Take care of Hardware maintenance, Security Risk, Network Management, Infrastructure Planning, Developer Support, and User Support. |
+| End User, Team Endagem/OVPS | Users | Provides feedback on user experience and system functionalities. |
 
 #  Project Charter Approval
 
