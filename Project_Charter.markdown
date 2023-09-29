@@ -100,12 +100,25 @@ The objectives of the *\<Project Name\>* are as follows:
 The following table presents the requirements that the project's
 product, service or result must meet in order for the project objectives
 to be satisfied.
+|Req#  | Requirement Description | Type
+|-----------------------|-----------------------|----------------------|
+| 1 | System should allow users to make and receive calls through the internet and cloud| Functional
+| 2 | Users should be able to make and receive calls on a desktop app, mobile phone, all from a single business phone number | Functional
+| 3 | System should follow a client-server model | Functional
+| 4 | System monitors each client for events such as numbers being dialed | Functional
+| 5 | The system shall support up to 500 simultaneous calls with a maximum audio lag of 200 milliseconds | Non-functional
+| 6 | User data shall be encrypted using AES-256. Administrators shall be notified after three failed attempts | Non-functional
 
 ## Major Deliverables
 
 The following table presents the major deliverables that the project's
 product, service or result must meet in order for the project objectives
 to be satisfied.
+| Major Deliverables          | Deliverable Description
+|------------------------|-----------------------|
+| System implementation | The system's successful implementation including server infrastructure, client applications, dialing plan system, and billing module.
+| client documentation | Comprehensive documentation for clients, detailing the system's features, functionalities, and usage instructions.
+| User manual | A user manual provided to customers, offering step-by-step guidance on using the virtual phone system effectively.
 
 
 ## Scope
