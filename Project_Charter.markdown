@@ -14,6 +14,7 @@ Team Name: Team Endgame
 |----------|----------|----------|----------|----------|----------|
 | 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
 | 1.1 | Dharmit Anghan | September 27, 2023 | TBD | TBD | Added Timelines, Assumptions, Constraints and Risks |
+| 1.2 | Breanna Brown | September 28, 2023 | TBD | TBD | Added Scope and Objectives |
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
@@ -84,16 +85,13 @@ The estimated project budget is $500K for the whole project, but only $120K can 
 
 ## Objectives
 
-\[*identify the objectives using **SMART (Specific, Measurable,
-Attainable, Relevant, Time-bound)***\]
+The objectives of the Online Virtual Phone System are as follows:
 
-The objectives of the *\<Project Name\>* are as follows:
+1. Our goal is to create a virtual phone system that will generate $18 million in revenue by the end of the first year of its release. We will do so by charging usage fees and using ad revenue to generate additional income. Increased revenue will allow for additional resources to be implemented to improve customer satisfication via improved performance. 
 
--   *\[Insert Objective 1\]*
+2. Build a robust and scalable system that allows for a minumum of 10k users to make calls simulatenously as this will allow for users across the country to access and utilize our service and increase profitibility. We expect to have the project completed by October 2024. 
 
--   *\[Insert Objective 2\]*
-
--   *\[Add additional bullets as necessary\]*
+3. Develop a secure and scalable cloud-based solution that allows seamless calling over the internet, with an expected 99.5% uptime. We expect to implement this with deployment of the MVP. This will ensure a high level of customer satisfaction that will improve customer retention and growth. 
 
 ## High-Level Requirements
 
@@ -123,8 +121,15 @@ to be satisfied.
 
 ## Scope
 
-\[Describe the inclusive and exclusive boundaries of the project.
-Specifically address items that are out of scope.\]
+In-scope: 
+We will create mobile applications that will establish and maintain connections between users to facilitate a voice call.
+We will create a user interface that will allow users to make a payment from within the application. 
+
+Out-of-scope: 
+The project will not involve supplying the servers, hardware or operating systems required to run the system. 
+No other forms of communication (ie. video calling, photo sharing, messaging, etc.) will be provided. 
+Payment will be routed through a third party to complete the transaction. 
+The ability to integrate with any other third party applications, aside from what was previously specified, will not be provided. 
 
 # Duration
 
