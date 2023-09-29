@@ -12,11 +12,12 @@ Team Name: Team Endgame
 
 | Version Number | Implemented By | Revision Date | Approved By | Approval Date | Reason |
 |----------|----------|----------|----------|----------|----------|
-| 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction |
-| 1.1 | Dharmit Anghan | September 27, 2023 | Rutu Barvaliya | 2023-09-28 | Added Timelines, Assumptions, Constraints and Risks |
-| 1.2 | Breanna Brown | September 28, 2023 | Rutu Barvaliya, Dharmit Anghan | 2023-09-29 | Added Scope and Objectives |
-| 1.3 | Akinsola Oluwademilade | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Major Deliverables and High-Level Requirements |
-| 1.4 | Rutu Barvaliya | September 29, 2023 | TBD | TBD | Added Stakeholders, Roles and Responsibilities
+| 1.0 | Rutu Barvaliya  | September 26, 2023 | Dharmit Anghan | 2023-09-27 | Added Introduction, Project And Product Overview |
+| 1.1 | Rutu Barvaliya | September 27, 2023 | Dharmit Anghan, Akinsola Oluwademilade | 2023-09-27 | Added Stakeholders, Roles and Responsibilities
+| 1.2 | Breanna Brown | September 27, 2023 | Rutu Barvaliya, Dharmit Anghan | 2023-09-29 | Added Scope, Objectives |
+| 1.3 | Akinsola Oluwademilade | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Major Deliverables, High-Level Requirements |
+| 1.4 | Dharmit Anghan | September 28, 2023 | Rutu Barvaliya | 2023-09-29 | Added Duration, Assumptions, Constraints and Risks |
+
 
 <center><span style="font-size: 24px;">TABLE OF CONTENTS</span></center>
 
@@ -263,12 +264,6 @@ The undersigned acknowledge they have reviewed the project charter and
 authorize and fund the Online Virtual Phone System project. Changes to this
 project charter will be coordinated with and approved by the undersigned
 or their designated representatives.
-
-\[List the individuals whose signatures are desired. Examples of such
-individuals are Business Steward, Project Manager or Project Sponsor.
-Add additional lines for signature as necessary. Although signatures are
-desired, they are not always required to move forward with the practices
-outlined within this document.\]
 
   ------------- ------------------------------------ ------- --------------
   Signature:                                         
