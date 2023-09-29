@@ -172,10 +172,6 @@ and their estimated completion timeframe.
 
 ## Assumptions
 
-\[Example: The system is being developed to capture data from public
-health partners. One assumption is that data is entered electronically
-into the system.\]
-
 This section identifies the statements believed to be true and from
 which a conclusion was drawn to define this project charter.
 
@@ -187,7 +183,8 @@ which a conclusion was drawn to define this project charter.
 4.  **IP Network Reliability:** The IP network will be reliable and sockets are default form of communication.
 5.  **Database Reliability:** The database will be reliable and prevent data loss and inconsistencies.
 6.  **Billing:** The system will be able to bill the users based on the usage of the system with precision.
-   
+7. **Government Telecommunication Authorities:** Approval from government telecommunication authorites will be handled by clients directly.
+8. **Third Parties:** The client will be contacting and responsible to get access to third parties APIs once request has been submitted by project managers.
 
 ## Constraints
 
