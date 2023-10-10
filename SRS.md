@@ -112,6 +112,7 @@ Through this document, the intent is to create an understanding of the system fo
 - Project Charter
 - Software Requirements Specification Template
 - Software Requirements Specification Example
+- IEEE Guide to Software Requirements Specification (ANSI/IEEE Std. 830-1984)
 
 <div class="page-break"></div>
 
