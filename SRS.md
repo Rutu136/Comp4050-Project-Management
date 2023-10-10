@@ -1,20 +1,5 @@
 # Software Requirements Specification Template
 
-**Software Engineering**
-
-The following annotated template shall be used to complete the Software Requirements Specification (SRS) assignment.
-
-**Template Usage:**
-
-Text contained within angle brackets (`<`, `>`) shall be replaced by your project-specific information and/or details. For example, `<Project Name>` will be replaced with either 'Smart Home' or 'Sensor Network'.
-
-Italicized text is included to briefly annotate the purpose of each section within this template. This text should not appear in the final version of your submitted SRS.
-
-**Acknowledgements:**
-
-Sections of this document are based upon the IEEE Guide to Software Requirements Specification (ANSI/IEEE Std. 830-1984). The SRS templates of Dr. Lawrence Chung (UTD) have also been used as guides in developing this template.
-
-
 <div class="page-break"></div>
 
 **Project Name:** Online Virtual Phone System
@@ -107,6 +92,7 @@ Through this document, the intent is to create an understanding of the system fo
 - Project Charter
 - Software Requirements Specification Template
 - Software Requirements Specification Example
+- IEEE Guide to Software Requirements Specification (ANSI/IEEE Std. 830-1984)
 
 <div class="page-break"></div>
 
