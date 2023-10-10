@@ -22,22 +22,30 @@ Team Endgame
 </H1>
 </center>
 
-<div style="page-break-after: always;"></div>
+<div class="page-break"></div>
 
 ## Revision History
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
 | 2023-10-09 | Version 1.0 | Converted to markdown format | Dharmit Anghan |
-| 2023-10-10 | Version 1.1 | Added function requirement and Reliability | Rutu Barvaliya |
-| 2023-10-12 | Version 1.2 | Added safety/performance requirements and general description | Breanna Brown |
+| 2023-10-09 | Version 1.1 | Added introduction | Dharmit Anghan |
+| 2023-10-10 | Version 1.2 | Added function requirement and Reliability | Rutu Barvaliya |
+| 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
 
-<div style="page-break-after: always;"></div>
+<div class="page-break"></div>
 
 <center><H1>TABLE OF CONTENTS</H1></center>
 
+[Revision History](#Revision-History)
+
 [1. Introduction](#1-introduction)
 
+- [1.1 Purpose](#1.1-Purpose)
+
+- [1.2 Definitions, Acronyms, and Abbreviations](#1.2-Definitions-Acronyms-and-Abbreviations)
+
+- [1.3 References](#1.3-References)
 - [1.1 Purpose](#11-purpose)
 - [1.2 Definitions, Acronyms, and Abbreviations](#12-definitions-acronyms-and-abbreviations)
 - [1.3 References](#13-references)
@@ -50,29 +58,11 @@ Team Endgame
 
 [3. Specific Requirements](#3-specific-requirements)
 
-- [3.1 Functional Requirements](#31-functional-requirements)
-    - [3.1.1 Authentication](#311-authentication)
-    - [3.1.2 User Account Management](#312-user-account-management)
-    - [3.1.3 Search Functionality](#313-search-functionality)
-    - [3.1.4 Call Processing](#314-call-processing)
-        - [3.1.4.1 Call Dialing](#3141-call-dialing)
-        - [3.1.4.2 Call Routing/Park](#3142-call-routing-park)
-        - [3.1.4.3 Call Forwarding](#3143-call-forwarding)
-        - [3.1.4.4 Voicemail Setup](#3144-voicemail-setup)
-        - [3.1.4.5 Call Queue](#3145-call-queue)
-        - [3.1.4.6 Call Back](#3146-call-back)
-        - [3.1.4.7 Calling Functionality](#3147-calling-functionality)
-    - [3.1.5 Save/Edit Contacts](#315-save-edit-contacts)
-    - [3.1.6 Allow to Customize Contact List](#316-allow-to-customize-contact-list)
-    - [3.1.7 Call History](#317-call-history)
-    - [3.1.8 Online Promotions and Rewards](#318-online-promotions-and-rewards)
-    - [3.1.9 Plan Detail](#319-plan-detail)
-    - [3.1.10 Plan Purchase](#3110-plan-purchase)
-    - [3.1.11 Payment Options](#3111-payment-options)
-    - [3.1.12 Email Confirmation](#3112-email-confirmation)
-    - [3.1.13 Billing Information](#3113-billing-information)
+- [3.1 Functional Requirements](#3.1-Functional-Requirements)
 
-- [3.2 Non-Functional Requirements](#32-non-functional-requirements)
+- [3.2 Non-Functional Requirements](#3.2-Non-Functional-Requirements)
+
+    - [3.2.1 Performance](#3.2.1-Performance)
 
     - [3.2.1 Performance](#321-performance)
     - [3.2.2 Reliability](#322-reliability)
@@ -94,33 +84,34 @@ Team Endgame
 [A. Appendices](#a-appendices)
 
 
-<div style="page-break-after: always;"></div>
+<div class="page-break"></div>
 
 # 1. Introduction
 
-(_You may need to refine your scope/purpose defined in the project charter after eliciting requirements with stakeholders_)
-
-The introduction to the Software Requirement Specification (SRS) document should provide an overview of the complete SRS document. While writing this document, please remember that this document should contain all of the information needed by a software engineer to adequately design and implement the software product described by the requirements listed in this document. (Note: the following subsection annotates are largely taken from the IEEE Guide to SRS).
+Development of the Online Virtual Phone System relies heavily on the Software Requirements Specification (SRS) document. It contains an introduction, a detailed project overview, specific requirements, and supporting data. A thorough project description containing the product concepts, functions, user profiles, and dependencies is given after the introduction, which establishes the context. The explicit requirements are described in the document's core, including interfaces, functionality, performance standards, and design limitations. It also offers appendices that assist the software and its qualities. Throughout the whole lifecycle of the software project, the SRS acts as a dynamic reference, allowing consistency and transparent communication.
 
 ## 1.1 Purpose
 
-_What is the purpose of this SRS and the (intended) audience for which it is written._
+The primary purpose of this Software Requirements Specification (SRS) document is to provide a detailed overview of the Online Virtual Phone System. It will explain the purpose and features of the system, as well as the interfaces of the system, constraints, and assumptions. This document is intended for both the stakeholders and the developers of the system.
+
+Through this document, the intent is to create an understanding of the system for the stakeholders and developers. The stakeholders will be able to understand the system's purpose and features, while the developers will be able to understand the system's requirements and constraints ultimately leading to delivering a phone system that meets the stakeholders' requirements.
 
 ## 1.2 Definitions, Acronyms, and Abbreviations
 
-_This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS. This information may be provided by reference to one or more appendices in the SRS or by reference to other documents._
+| **Term** | **Definition, Acronym or Abbreviations** |
+| --- | --- |
+| SRS | Software Requirement Specification |
+| OS | Operating System |
+| GUI | Graphical User Interface |
+| MFA | Multi-Factor Authentication | 
+| OVPS | Online Virtual Phone System |
+
 
 ## 1.3 References
 
-_This subsection should:_
-
-_(1) Provide a complete list of all documents referenced elsewhere in the SRS, or in a separate, specified document._
-
-_(2) Identify each document by title, report number - if applicable - date, and publishing organization._
-
-_(3) Specify the sources from which the references can be obtained._
-
-_This information may be provided by reference to an appendix or to another document._
+- Project Charter
+- Software Requirements Specification Template
+- Software Requirements Specification Example
 
 <div class="page-break"></div>
 
