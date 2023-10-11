@@ -107,15 +107,25 @@ _This information may be provided by reference to an appendix or to another docu
 
 ## 2. General Description
 
-_This section of the SRS should describe the general factors that affect 'the product and its requirements. It should be made clear that this section does not state specific requirements; it only makes those requirements easier to understand._
-
 ### 2.1 User Characteristics
 
-This subsection of the SRS should describe those general characteristics of the eventual users of the product that will affect the specific requirements. (See the IEEE Guide to SRS for more details).
+The users for the product will fall into one of two categories: administrator or user. 
+
+The users will be adults, located at various locations across the globe with various levels of internet strength and reliability. Given the geographic diversity of the users, not everyone will speak the same language. The users will be using the product for both professional and personal use. As such the user may be an individual or a business, requiring extensions to reach multiple departments within the business. Users are expected to have varying levels of technical literacy. 
+
+Administrators will be IT professionals with extensive knowledge and training and strong techinical literacy. These users will be located in Canada with a strong, reliable internet connection. 
 
 ### 2.2 Assumptions and Dependencies
 
-This subsection of the SRS should list each of the factors that affect the requirements stated in the SRS. These factors are not design constraints on the software but are, rather, any changes to them that can affect the requirements in the SRS. For example, an assumption might be that a specific operating system will be available on the hardware designated for the software product. If, in fact, the operating system is not available, the SRS would then have to change accordingly.
+It is assumed all users of the system will have the ability to connect to the internet with adequate speeds to allow for full functionality of the application. 
+
+All users should have the necessary hardware and operating systems to support the app. We will accommodate operating systems from 2015-present day. Any operating systems that date back past 2015 will be incompatible. Hardware components such as a mobile device, desktop, speakers and microphones are assumed to be provided by the user.
+
+Each user will have the ability to make a payment digitally via credit card or PayPal using CAD as the currency of choice. Should the user prefer an alternative currency it is assumed that the third party chosen to manage and route the transactions will be responsible for the conversion and any inform the user of any fees imposed by the users bank. 
+
+While not all users will be fluent in English, it is assumed the users will be familar enough with one of the 4 languages provided to navigate the app without too much difficulty. 
+
+The app will depend on the use of third party services to manage payment. As such, agreements must be made between the Online Virtual Phone System and the chosen third party.
 
 <div class="page-break"></div>
 
@@ -151,7 +161,15 @@ This section describes non-functional features of the software project. Specify 
 
 #### 3.2.1 Performance
 
-< The product shall take initial load time depending on internet connection strength, which also depends on the media from which the product is run. >
+The system shall handle all calls up a predefined maximum, determined by the administrators. 
+
+The system shall record and display the system load in real time to the administrators.
+
+The app startup time shall not exceed 3 seconds. 
+
+The system audio quality shall meet a minimum mean opinion score (MOS) of 4. 
+
+The system will provide voice calls with latency exceeding no more than 150ms.  
 
 #### 3.2.2 Reliability
 
@@ -163,9 +181,15 @@ This section describes non-functional features of the software project. Specify 
 
 #### 3.2.4 Security
 
-< The system shall use secure sockets in all transactions that include any confidential customer information.
+The system will ensure a newly created password meets an adequate level of complexity.
 
-The system shall automatically log out all customers after a period of inactivity. >
+The system shall store end-to-end encrypted passwords.
+
+The system shall screen for incoming scam calls (ie. AI generated calls). 
+
+The system shall not store any payment information nor will the system store any personal information in the form of cookies, etc.
+
+Voice calls will be fully secure with end-to-end encryption. 
 
 #### 3.2.5 Interfaces
 
