@@ -247,6 +247,9 @@ This will be the largest and most important section of the SRS. The customer req
 - The system console shall display a user's bill for any billing period.
 - The system shall shows sum of all charges for all calls incurred during the relevant billing period.
 - The system shall shows all detail in bill including the duration of the call, the number dialed, the day of the week and the time of the day, the rate per minute for the call, and the charge for the call. 
+- The system shall allow administrator to change amounts charged for call by adding or editing billing plans.
+- The system shall issue bill immediately to a users in case of cancellation of services.
+- The system shall generate warning in the bills in case of users have outstanding balance.
 
 ## 3.2 Non-Functional Requirements
 
