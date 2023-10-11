@@ -220,9 +220,9 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall allow users to retrieve their call history based on date, name, and number.
 
 ### 3.1.8 Online Promotions and Rewards
-The system shall display all available promotions to the user.
-The system shall allow users to select from the available promotions.
-The system shall shows rates of promotions in different currencies.
+- The system shall display all available promotions to the user.
+- The system shall allow users to select from the available promotions.
+- The system shall shows rates of promotions in different currencies.
 
 ### 3.1.9 Plan Detail
 - The system shall provide detailed information on all the available plans.
@@ -238,12 +238,15 @@ The system shall shows rates of promotions in different currencies.
 - The system shall allow users to enter payment details.
 
 ### 3.1.12 Email Confirmation
--	The system shall send purchase confirmation to the users through email. 
+- The system shall send purchase confirmation to the users through email. 
 
 ### 3.1.13 Billing Information
--	The system shall display billing information on the application.
--	The system shall send billing information to the users through email.
-
+- The system shall display billing information on the application.
+- The system shall send billing information to the users through email.
+- The system shall send bill showing all charges incurred during a defined billing period.
+- The system console shall display a user's bill for any billing period.
+- The system shall shows sum of all charges for all calls incurred during the relevant billing period.
+- The system shall shows all detail in bill including the duration of the call, the number dialed, the day of the week and the time of the day, the rate per minute for the call, and the charge for the call. 
 
 ## 3.2 Non-Functional Requirements
 
