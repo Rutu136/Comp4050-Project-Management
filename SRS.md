@@ -145,7 +145,7 @@ This will be the largest and most important section of the SRS. The customer req
 
 ### 3.1.1 Authentication
 -	The system shall ask for username and password.
--	The system shall ask for multi-factor authentication.
+-	The system shall ask for multi-factor authentication(MFA).
 -	The system shall support face/biometric authentication in mobile application.
 -	The system shall check for humans by providing a puzzle or captcha.
 
@@ -157,7 +157,7 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall define different user roles.
 - The system shall assign different levels of permission to each role to control what actions users can perform within the system.
 - The system shall allow users to delete or deactivate their accounts if they wish to discontinue using the services.
-- The system shall allow users to configure Two-Factor Authentication to add an extra layer of security.
+- The system shall allow users to configure multi-factor authentication(MFA) to add an extra layer of security.
 
 ### 3.1.3 Search Functionality
 - The system shall support searching for contact information by typing the recipient's name.
