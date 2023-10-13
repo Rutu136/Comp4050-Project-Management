@@ -276,109 +276,90 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.2.3 Availability
 
-< The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability. >
+ The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability. 
 
 ### 3.2.4 Security
 
-< The system shall use secure sockets in all transactions that include any confidential customer information.
+The system shall use secure sockets in all transactions that include any confidential customer information.
 
-The system shall automatically log out all customers after a period of inactivity. >
+The system shall automatically log out all customers after a period of inactivity. 
 
 ### 3.2.5 Interfaces
 
 #### 3.2.5.1 User Interfaces
-< The Online Virtual Phone System shall provide a user-friendly web interface that allows users to make, receive, and manage virtual phone calls.
-
-It should enable users to manage their account settings, view call logs, and utilize additional features such as voicemail, call forwarding, and conferencing.
-
-The UI shall be accessible via web browsers and be responsive to ensure usability across various devices like computers, tablets, and smartphones.>
+- The Online Virtual Phone System shall provide a user-friendly web interface that allows users to make, receive, and manage virtual phone calls.
+- It should enable users to manage their account settings, view call logs, and utilize additional features such as voicemail, call forwarding, and conferencing.
+- The UI shall be accessible via web browsers and be responsive to ensure usability across various devices like computers, tablets, and smartphones.
 
 #### 3.2.5.2 Software Interfaces
-< The system shall interface with various software components and external systems to facilitate its functionality. This might include interfacing with:
-    Billing Systems: to manage user subscriptions, usage billing, and payment processing.
-    
-    CRM Systems: to manage user information, support interactions, and user communication.
-
-    External APIs: such as SMS gateways, Email systems, or third-party apps to enhance functionality.>
+- The system shall interface with various software components and external systems to facilitate its functionality. This might include interfacing with:
+    * Billing Systems: to manage user subscriptions, usage billing, and payment processing.
+    * CRM Systems: to manage user information, support interactions, and user communication.
+    * External APIs: such as SMS gateways, Email systems, or third-party apps to enhance functionality. 
 
 #### 3.2.5.3 Hardware Interfaces
-< While the system is web-based and does not directly interact with hardware, it should be optimized for use on various devices with different hardware configurations.
-
-The system should be capable of handling voice data efficiently and ensuring clear audio transmission during calls, considering the hardware capabilities of user devices.>
+- While the system is web-based and does not directly interact with hardware, it should be optimized for use on various devices with different hardware configurations.
+- The system should be capable of handling voice data efficiently and ensuring clear audio transmission during calls, considering the hardware capabilities of user devices.
 
 #### 3.2.5.4 Communication Interfaces
-< The system shall utilize VoIP (Voice over Internet Protocol) technologies to facilitate virtual phone calls.
-
-It should securely transmit voice and data over the internet, ensuring clear, reliable, and secure communication.
-
-Communication with external systems (like billing or CRM) should be done securely using API calls over HTTPS to ensure data integrity and security.>
+- The system shall utilize VoIP (Voice over Internet Protocol) technologies to facilitate virtual phone calls.
+- It should securely transmit voice and data over the internet, ensuring clear, reliable, and secure communication.
+- Communication with external systems (like billing or CRM) should be done securely using API calls over HTTPS to ensure data integrity and security.
 
 #### 3.2.5.5 Third-party Interfaces
-< The system may interact with third-party services for specific functionalities (like SMS notifications, payment processing, or email communications).
-
-Appropriate API integrations shall be established, ensuring secure and reliable data exchange with third-party systems.>
+- The system may interact with third-party services for specific functionalities (like SMS notifications, payment processing, or email communications).
+- Appropriate API integrations shall be established, ensuring secure and reliable data exchange with third-party systems.
 
 #### 3.2.5.6 Accessibility Interfaces
-< The system shall support 5 different languages such as English, Spanish, Hindi, and Mandrin.
-
-The system shall provide screen reader functionalities.
-
-The system shall provide voice to text transcript.>
+- The system shall support 5 different languages such as English, Spanish, Hindi, and Mandrin.
+- The system shall provide screen reader functionalities.
+- The system shall provide voice to text transcript.>
 
 ## 3.3 Design Constraints
 
 ### 3.3.1 Platform Constraints
-
-< The Online Virtual Phone System shall be developed as a web-based application to ensure accessibility from various locations and devices, especially considering the remote and virtual aspects of phone systems.
-
-The platform should be compatible with various web browsers, including Google Chrome, Mozilla FireFox, Safari, and Microsoft Edge.>
+- The Online Virtual Phone System shall be developed as a web-based application to ensure accessibility from various locations and devices, especially considering the remote and virtual aspects of phone systems.
+- The platform should be compatible with various web browsers, including Google Chrome, Mozilla FireFox, Safari, and Microsoft Edge.>
 
 ### 3.3.2 Technology Constraints
-
-< The system shall utilize a secure and reliable technology stack, which can efficiently manage real-time data related to virtual phone calls and support associated functionalities.>
+- The system shall utilize a secure and reliable technology stack, which can efficiently manage real-time data related to virtual phone calls and support associated functionalities.
 
 ### 3.3.3 User Interface Constraints
-
-< Considering the virtual nature of the phone system, the user interface shall be intuitive and user-friendly, ensuring users can navigate and operate the system with ease and minimal technical expertise. >
+- Considering the virtual nature of the phone system, the user interface shall be intuitive and user-friendly, ensuring users can navigate and operate the system with ease and minimal technical expertise. 
 
 ## 3.4 Legal, Copyright, and Other Notices
 
 ### 3.4.1 Legal Compliance
-
-< The E-Store shall adhere to all applicable local, state, and international laws and regulations related to e-commerce, data protection, and consumer protection. >
+- The E-Store shall adhere to all applicable local, state, and international laws and regulations related to e-commerce, data protection, and consumer protection. 
 
 ### 3.4.2 Copyright Notices
-
-< All content, including text, graphics, logos, and multimedia within the E-Store, should respect copyright laws and, where applicable, credit should be given to the rightful owners or appropriate licenses obtained.>
+- All content, including text, graphics, logos, and multimedia within the E-Store, should respect copyright laws and, where applicable, credit should be given to the rightful owners or appropriate licenses obtained.
 
 ### 3.4.2 User Data Protection
 
-< The E-Store shall comply with global data protection regulations, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), to safeguard user data. >
+- The E-Store shall comply with global data protection regulations, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), to safeguard user data.
 
 ## 3.5 Other Requirements
 
 ### 3.5.1 Scalability
-
-< The Online Virtual Phone System shall be designed to facilitate the addition of new users and expansion of telecommunication features without compromising performance and user experience.>
+- The Online Virtual Phone System shall be designed to facilitate the addition of new users and expansion of telecommunication features without compromising performance and user experience.
 
 ### 3.5.2 Maintainability
-
-< Regular updates, system monitoring, and customer support shall be integral aspects of the system to ensure long-term functionality and reliability.>
+- Regular updates, system monitoring, and customer support shall be integral aspects of the system to ensure long-term functionality and reliability.
 
 # 4 Other Supporting Documents
 
 ## 4.1 Documentation
-
-< Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the Online Virtual Phone System. This may include API documentation, user manuals, and troubleshooting guides.>
+- Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the Online Virtual Phone System. This may include API documentation, user manuals, and troubleshooting guides.
 
 ## 4.2 Version Control
-< Detailed records of system versions, updates, and modifications shall be maintained to manage the evolution of the system effectively and to address any future issues or rollbacks.>
+- Detailed records of system versions, updates, and modifications shall be maintained to manage the evolution of the system effectively and to address any future issues or rollbacks.
 
 ## 4.3 Quality Assurance
-< A detailed quality assurance plan shall be implemented to ensure that the system adheres to specified requirements and provides a reliable, efficient, and secure user experience.>
+- A detailed quality assurance plan shall be implemented to ensure that the system adheres to specified requirements and provides a reliable, efficient, and secure user experience.
 
 ## 4.4 Customer Support 
-< A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the Online Virtual Phone System.>
+- A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the Online Virtual Phone System.
 
 # A. Appendices
 
