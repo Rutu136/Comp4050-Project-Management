@@ -112,7 +112,7 @@ Team Endgame
     - [3.5.1 Scalability](#351-scalability)
     - [3.5.2 Maintainability](#352-maintainability)
 
-[4 Other Supporting Documents](#4-other-supporting-documents)
+- [4. Other Supporting Documents](#4-other-supporting-documents)
     - [4.1 Documentation](#41-documentation)
     - [4.2 Version Control](#42-version-control)
     - [4.3 Quality Assurance](#43-quality-assurance)
@@ -334,7 +334,7 @@ This section describes non-functional features of the software project. Specify 
 - The system shall be available in 4 languages (English, French, Spanish, Mandarin).
 - The system shall be available in 3 methods of payments (Credit Card, PayPal, Use of third party applications if implemented).
 
-
+<div style="page-break-after: always;"></div>
 
 ### 3.2.4 Security
 
@@ -369,6 +369,8 @@ This section describes non-functional features of the software project. Specify 
 - It should securely transmit voice and data over the internet, ensuring clear, reliable, and secure communication.
 - Communication with external systems (like billing or CRM) should be done securely using API calls over HTTPS to ensure data integrity and security.
 
+<div style="page-break-after: always;"></div>
+
 #### 3.2.5.5 Third-party Interfaces
 - The system may interact with third-party services for specific functionalities (like SMS notifications, payment processing, or email communications).
 - Appropriate API integrations shall be established, ensuring secure and reliable data exchange with third-party systems.
@@ -377,9 +379,6 @@ This section describes non-functional features of the software project. Specify 
 - The system shall support 4 different languages such as English, Spanish, Hindi, and Mandrin.
 - The system shall provide screen reader functionalities.
 - The system shall provide voice to text transcript.>
-
-<div style="page-break-after: always;"></div>
-
 
 ## 3.3 Design Constraints
 
@@ -414,10 +413,7 @@ This section describes non-functional features of the software project. Specify 
 - Regular updates, system monitoring, and customer support shall be integral aspects of the system to ensure long-term functionality and reliability.
 
 
-<div style="page-break-after: always;"></div>
-
-
-# 4 Other Supporting Documents
+# 4. Other Supporting Documents
 
 ## 4.1 Documentation
 - Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the OVPS. This may include API documentation, user manuals, and troubleshooting guides.
