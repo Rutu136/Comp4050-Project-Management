@@ -79,21 +79,44 @@ Team Endgame
 - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
 
     - [3.2.1 Performance](#321-performance)
+        - [3.2.1.1 Load management](#3211-load-management)
+        - [3.2.1.2 System Speed](#3212-system-speed)
+        - [3.2.1.3 Audio Quality](#3213-audio-quality)
     - [3.2.2 Reliability](#322-reliability)
         - [3.2.2.1 Error Handling and Recovery](#3221-error-handling-and-recovery)
         - [3.2.2.2 Data Backup](#3222-data-backup)
         - [3.2.2.3 Logging and Crash Reports](#3223-logging-and-crash-reports)
     - [3.2.3 Availability](#323-availability)
     - [3.2.4 Security](#324-security)
+        -[3.2.4.1 Passwords and sensitive data](#3241-passwords-and-sensitive-data)
+        -[3.2.4.2 Voice call security](#3242-voice-call-security)
     - [3.2.5 Interfaces](#325-interfaces)
+        - [3.2.5.1 User Interfaces](#3251-user-interfaces)
+        - [3.2.5.2 Software Interfaces](#3252-software-interfaces)
+        - [3.2.5.3 Hardware Interfaces](#3253-hardware-interfaces)
+        - [3.2.5.4 Communication Interfaces](#3254-communication-interfaces)
+        - [3.2.5.5 Third-party Interfaces](#3255-third-party-interfaces)
+        - [3.2.5.6 Accessibility Interfaces](#3256-accessibility-interfaces)
 
 - [3.3 Design Constraints](#33-design-constraints)
+    - [3.3.1 Platform Constraints](#331-platform-constraints)
+    - [3.3.2 Technology Constraints](#332-technology-constraints)
+    - [3.3.3 User Interface Constraints](#333-user-interface-constraints)
 
 - [3.4 Legal, Copyright, and Other Notices](#34-legal-copyright-and-other-notices)
+    - [3.4.1 Legal Compliance](#341-legal-compliance)
+    - [3.4.2 Copyright Notices](#342-copyright)
+    - [3.4.3 User Data Protection](#343-user-data-protection)
 
 - [3.5 Other Requirements](#35-other-requirements)
+    - [3.5.1 Scalability](#351-scalability)
+    - [3.5.2 Maintainability](#352-maintainability)
 
 [4 Other Supporting Documents](#4-other-supporting-documents)
+    - [4.1 Documentation](#41-documentation)
+    - [4.2 Version Control](#42-version-control)
+    - [4.3 Quality Assurance](#43-quality-assurance)
+    - [4.4 Customer Support](#44-customer-support)
 
 [A. Appendices](#a-appendices)
 
@@ -192,7 +215,7 @@ This will be the largest and most important section of the SRS. The customer req
 
 ### 3.1.4 Call Processing
 
-#### 3.1.4.1 Call Dailing
+#### 3.1.4.1 Call Dialing
 - The system shall allow users to dial a number directly from their contact list.
 - The system shall allow users to dial a number by typing it on the number keypad.
 - The system shall allow users to copy and paste phone numbers into the dialing screen.
@@ -277,8 +300,6 @@ This will be the largest and most important section of the SRS. The customer req
 
 ## 3.2 Non-Functional Requirements
 
-Non-functional requirements may exist for the following attributes. Often these requirements must be achieved at a system-wide level rather than at a unit level. State the requirements in the following sections in measurable terms (e.g., 95% of transactions shall be processed in less than a second, system downtime may not exceed 1 minute per day, > 30-day MTBF value, etc).
-
 This section describes non-functional features of the software project. Specify the requirements as user story.
 
 ### 3.2.1 Performance
@@ -359,7 +380,6 @@ This section describes non-functional features of the software project. Specify 
 
 <div style="page-break-after: always;"></div>
 
-<div style="page-break-after: always;"></div>
 
 ## 3.3 Design Constraints
 
@@ -397,8 +417,6 @@ This section describes non-functional features of the software project. Specify 
 <div style="page-break-after: always;"></div>
 
 
-<div style="page-break-after: always;"></div>
-
 # 4 Other Supporting Documents
 
 ## 4.1 Documentation
@@ -412,6 +430,8 @@ This section describes non-functional features of the software project. Specify 
 
 ## 4.4 Customer Support 
 - A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the OVPS.
+
+<div style="page-break-after: always;"></div>
 
 # A. Appendices
 
