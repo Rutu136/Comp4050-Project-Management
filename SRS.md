@@ -32,6 +32,7 @@ Team Endgame
 | 2023-10-09 | Version 1.1 | Added Introduction, purpose, definitions, and references | Dharmit Anghan |
 | 2023-10-10 | Version 1.2 | Added function requirement and Reliability | Rutu Barvaliya |
 | 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
+| 2023-10-13 | Version 1.4 | Added Availability | Dharmit Anghan |
 
 <div style="page-break-after: always;"></div>
 
@@ -297,7 +298,12 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.2.3 Availability
 
-< The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability. >
+- The system shall be available 24/7 with 99.99% uptime.
+- The system shall be available on all major operating systems (Windows, MacOS, Linux, iOS, Android).
+- The system shall be available in 4 languages (English, French, Spanish, Mandarin).
+- The system shall be available in 3 methods of payments (Credit Card, PayPal, Use of third party applications if implemented).
+
+
 
 ### 3.2.4 Security
 
