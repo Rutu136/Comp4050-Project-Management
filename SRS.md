@@ -33,6 +33,8 @@ Team Endgame
 | 2023-10-10 | Version 1.2 | Added function requirement and Reliability | Rutu Barvaliya |
 | 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
 | 2023-10-13 | Version 1.4 | Added Availability | Dharmit Anghan |
+| 2023-10-13 | Version 1.5 | Added Interfaces, Design constraints, (Legal, copyright, and other notices), Other requirements, Other supporting documents | Akinsola Oluwademilade
+
 
 <div style="page-break-after: always;"></div>
 
@@ -117,6 +119,8 @@ Through this document, the intent is to create an understanding of the system fo
 | GUI | Graphical User Interface |
 | MFA | Multi-Factor Authentication | 
 | OVPS | Online Virtual Phone System |
+| CRM | Customer Relationship Management |
+| VoIP | Voice over Internet Protocol |
 
 ## 1.3 References
 
@@ -318,21 +322,80 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.2.5 Interfaces
 
-##
+#### 3.2.5.1 User Interfaces
+- The OVPS shall provide a user-friendly interface that allows users to make, receive, and manage virtual phone calls.
+- It should enable users to manage their account settings, view call logs, and utilize additional features such as voicemail, call forwarding, and conferencing.
+- The UI shall be accessible via desktop application and be responsive to ensure usability across various devices like computers, tablets, and smartphones.
+
+#### 3.2.5.2 Software Interfaces
+- The system shall interface with various software components and external systems to facilitate its functionality. This shall include interfacing with:
+    * Billing Systems: to manage user subscriptions, usage billing, and payment processing.
+    * CRM Systems: to manage user information, support interactions, and user communication.
+    * External APIs: such as SMS gateways, Email systems, or third-party apps to enhance functionality. 
+
+#### 3.2.5.3 Hardware Interfaces
+- The system should be capable of handling voice data efficiently and ensuring clear audio transmission during calls, considering the hardware capabilities of user devices.
+- The system should be compatible with various hardware components, including microphones, speakers, and headsets, to facilitate voice communication.
+
+#### 3.2.5.4 Communication Interfaces
+- The system shall utilize VoIP (Voice over Internet Protocol) technologies to facilitate virtual phone calls.
+- It should securely transmit voice and data over the internet, ensuring clear, reliable, and secure communication.
+- Communication with external systems (like billing or CRM) should be done securely using API calls over HTTPS to ensure data integrity and security.
+
+#### 3.2.5.5 Third-party Interfaces
+- The system may interact with third-party services for specific functionalities (like SMS notifications, payment processing, or email communications).
+- Appropriate API integrations shall be established, ensuring secure and reliable data exchange with third-party systems.
+
+#### 3.2.5.6 Accessibility Interfaces
+- The system shall support 4 different languages such as English, Spanish, Hindi, and Mandrin.
+- The system shall provide screen reader functionalities.
+- The system shall provide voice to text transcript.>
 
 ## 3.3 Design Constraints
 
-###
+### 3.3.1 Platform Constraints
+- The OVPS shall be developed as a web-based application to ensure accessibility from various locations and devices, especially considering the remote and virtual aspects of phone systems.
+- The platform should be compatible with various web browsers, including Google Chrome, Mozilla FireFox, Safari, and Microsoft Edge.>
+
+### 3.3.2 Technology Constraints
+- The system shall utilize a secure and reliable technology stack, which can efficiently manage real-time data related to virtual phone calls and support associated functionalities.
+
+### 3.3.3 User Interface Constraints
+- Considering the virtual nature of the phone system, the user interface shall be intuitive and user-friendly, ensuring users can navigate and operate the system with ease and minimal technical expertise. 
 
 ## 3.4 Legal, Copyright, and Other Notices
 
-###
+### 3.4.1 Legal Compliance
+- The OVPS shall adhere to all applicable local, state, and international laws and regulations related to e-commerce, data protection, and consumer protection. 
+
+### 3.4.2 Copyright Notices
+- All content, including text, graphics, logos, and multimedia within the OVPS, should respect copyright laws and, where applicable, credit should be given to the rightful owners or appropriate licenses obtained.
+
+### 3.4.2 User Data Protection
+
+- The OVPS shall comply with global data protection regulations, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), to safeguard user data.
 
 ## 3.5 Other Requirements
 
-Catchall section for any additional requirements.
+### 3.5.1 Scalability
+- The OVPS shall be designed to facilitate the addition of new users and expansion of telecommunication features without compromising performance and user experience.
+
+### 3.5.2 Maintainability
+- Regular updates, system monitoring, and customer support shall be integral aspects of the system to ensure long-term functionality and reliability.
 
 # 4 Other Supporting Documents
+
+## 4.1 Documentation
+- Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the OVPS. This may include API documentation, user manuals, and troubleshooting guides.
+
+## 4.2 Version Control
+- Detailed records of system versions, updates, and modifications shall be maintained to manage the evolution of the system effectively and to address any future issues or rollbacks.
+
+## 4.3 Quality Assurance
+- A detailed quality assurance plan shall be implemented to ensure that the system adheres to specified requirements and provides a reliable, efficient, and secure user experience.
+
+## 4.4 Customer Support 
+- A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the OVPS.
 
 # A. Appendices
 
