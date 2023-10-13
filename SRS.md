@@ -119,6 +119,8 @@ Through this document, the intent is to create an understanding of the system fo
 | GUI | Graphical User Interface |
 | MFA | Multi-Factor Authentication | 
 | OVPS | Online Virtual Phone System |
+| CRM | Customer Relationship Management |
+| VoIP | Voice over Internet Protocol |
 
 ## 1.3 References
 
@@ -321,7 +323,7 @@ This section describes non-functional features of the software project. Specify 
 ### 3.2.5 Interfaces
 
 #### 3.2.5.1 User Interfaces
-- The OVPS shall provide a user-friendly web interface that allows users to make, receive, and manage virtual phone calls.
+- The OVPS shall provide a user-friendly interface that allows users to make, receive, and manage virtual phone calls.
 - It should enable users to manage their account settings, view call logs, and utilize additional features such as voicemail, call forwarding, and conferencing.
 - The UI shall be accessible via desktop application and be responsive to ensure usability across various devices like computers, tablets, and smartphones.
 
@@ -333,6 +335,7 @@ This section describes non-functional features of the software project. Specify 
 
 #### 3.2.5.3 Hardware Interfaces
 - The system should be capable of handling voice data efficiently and ensuring clear audio transmission during calls, considering the hardware capabilities of user devices.
+- The system should be compatible with various hardware components, including microphones, speakers, and headsets, to facilitate voice communication.
 
 #### 3.2.5.4 Communication Interfaces
 - The system shall utilize VoIP (Voice over Internet Protocol) technologies to facilitate virtual phone calls.
