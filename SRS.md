@@ -161,15 +161,20 @@ This section describes non-functional features of the software project. Specify 
 
 #### 3.2.1 Performance
 
-The system shall handle all calls up a predefined maximum, determined by the administrators. 
+#### 3.2.1.1 Load management 
+- The system shall handle all calls up a predefined maximum, determined by the administrators. 
 
-The system shall record and display the system load in real time to the administrators.
+- The system shall record and display the system load in real time to the administrators.
 
-The app startup time shall not exceed 3 seconds. 
+#### 3.2.1.2 System Speed
 
-The system audio quality shall meet a minimum mean opinion score (MOS) of 4. 
+- The app startup time shall not exceed 3 seconds. 
 
-The system will provide voice calls with latency exceeding no more than 150ms.  
+#### 3.2.1.3 Audio Quality
+
+- The system audio quality shall meet a minimum mean opinion score (MOS) of 4. 
+
+- The system will provide voice calls with latency exceeding no more than 150ms.  
 
 #### 3.2.2 Reliability
 
@@ -181,13 +186,17 @@ The system will provide voice calls with latency exceeding no more than 150ms.
 
 #### 3.2.4 Security
 
+#### 3.2.4.1 Passwords and sensitive date
+
 The system will ensure a newly created password meets an adequate level of complexity.
 
 The system shall store end-to-end encrypted passwords.
 
-The system shall screen for incoming scam calls (ie. AI generated calls). 
-
 The system shall not store any payment information nor will the system store any personal information in the form of cookies, etc.
+
+#### 3.2.4.2 Voice call security 
+
+The system shall screen for incoming scam calls (ie. AI generated calls). 
 
 Voice calls will be fully secure with end-to-end encryption. 
 
