@@ -29,7 +29,11 @@ Team Endgame
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
 | 2023-10-09 | Version 1.0 | Converted to markdown format | Dharmit Anghan |
-| 2023-10-10 | Version 1.1 | Added function requirement and Reliability | Rutu Barvaliya |
+| 2023-10-09 | Version 1.1 | Added Introduction, purpose, definitions, and references | Dharmit Anghan |
+| 2023-10-10 | Version 1.2 | Added function requirement and Reliability | Rutu Barvaliya |
+| 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
+| 2023-10-13 | Version 1.4 | Added Availability | Dharmit Anghan |
+| 2023-10-13 | Version 1.5 | Added Interfaces, Design constraints, (Legal, copyright, and other notices), Other requirements, Other supporting documents | Akinsola Oluwademilade
 
 
 <div style="page-break-after: always;"></div>
@@ -98,43 +102,54 @@ Team Endgame
 
 # 1. Introduction
 
-(_You may need to refine your scope/purpose defined in the project charter after eliciting requirements with stakeholders_)
-
-The introduction to the Software Requirement Specification (SRS) document should provide an overview of the complete SRS document. While writing this document, please remember that this document should contain all of the information needed by a software engineer to adequately design and implement the software product described by the requirements listed in this document. (Note: the following subsection annotates are largely taken from the IEEE Guide to SRS).
+Development of the Online Virtual Phone System relies heavily on the Software Requirements Specification (SRS) document. It contains an introduction, a detailed project overview, specific requirements, and supporting data. A thorough project description containing the product concepts, functions, user profiles, and dependencies is given after the introduction, which establishes the context. The explicit requirements are described in the document's core, including interfaces, functionality, performance standards, and design limitations. It also offers appendices that assist the software and its qualities. Throughout the whole lifecycle of the software project, the SRS acts as a dynamic reference, allowing consistency and transparent communication.
 
 ## 1.1 Purpose
 
-_What is the purpose of this SRS and the (intended) audience for which it is written._
+The primary purpose of this Software Requirements Specification (SRS) document is to provide a detailed overview of the Online Virtual Phone System. It will explain the purpose and features of the system, as well as the interfaces of the system, constraints, and assumptions. This document is intended for both the stakeholders and the developers of the system.
+
+Through this document, the intent is to create an understanding of the system for the stakeholders and developers. The stakeholders will be able to understand the system's purpose and features, while the developers will be able to understand the system's requirements and constraints ultimately leading to delivering a phone system that meets the stakeholders' requirements.
 
 ## 1.2 Definitions, Acronyms, and Abbreviations
 
-_This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS. This information may be provided by reference to one or more appendices in the SRS or by reference to other documents._
+| **Term** | **Definition, Acronym or Abbreviations** |
+| --- | --- |
+| SRS | Software Requirement Specification |
+| OS | Operating System |
+| GUI | Graphical User Interface |
+| MFA | Multi-Factor Authentication | 
+| OVPS | Online Virtual Phone System |
 
 ## 1.3 References
 
-_This subsection should:_
-
-_(1) Provide a complete list of all documents referenced elsewhere in the SRS, or in a separate, specified document._
-
-_(2) Identify each document by title, report number - if applicable - date, and publishing organization._
-
-_(3) Specify the sources from which the references can be obtained._
-
-_This information may be provided by reference to an appendix or to another document._
+- Project Charter
+- Software Requirements Specification Template
+- Software Requirements Specification Example
+- IEEE Guide to Software Requirements Specification (ANSI/IEEE Std. 830-1984)
 
 <div class="page-break"></div>
 
 # 2. General Description
 
-_This section of the SRS should describe the general factors that affect 'the product and its requirements. It should be made clear that this section does not state specific requirements; it only makes those requirements easier to understand._
-
 ## 2.1 User Characteristics
 
-This subsection of the SRS should describe those general characteristics of the eventual users of the product that will affect the specific requirements. (See the IEEE Guide to SRS for more details).
+The users for the product will fall into one of two categories: administrator or user. 
+
+The users will be adults, located at various locations across the globe with various levels of internet strength and reliability. Given the geographic diversity of the users, not everyone will speak the same language. The users will be using the product for both professional and personal use. As such the user may be an individual or a business, requiring extensions to reach multiple departments within the business. Users are expected to have varying levels of technical literacy. 
+
+Administrators will be IT professionals with extensive knowledge and training and strong techinical literacy. These users will be located in Canada with a strong, reliable internet connection. 
 
 ## 2.2 Assumptions and Dependencies
 
-This subsection of the SRS should list each of the factors that affect the requirements stated in the SRS. These factors are not design constraints on the software but are, rather, any changes to them that can affect the requirements in the SRS. For example, an assumption might be that a specific operating system will be available on the hardware designated for the software product. If, in fact, the operating system is not available, the SRS would then have to change accordingly.
+It is assumed all users of the system will have the ability to connect to the internet with adequate speeds to allow for full functionality of the application. 
+
+All users should have the necessary hardware and operating systems to support the app. We will accommodate operating systems from 2015-present day. Any operating systems that date back past 2015 will be incompatible. Hardware components such as a mobile device, desktop, speakers and microphones are assumed to be provided by the user.
+
+Each user will have the ability to make a payment digitally via credit card or PayPal using CAD as the currency of choice. Should the user prefer an alternative currency it is assumed that the third party chosen to manage and route the transactions will be responsible for the conversion and any inform the user of any fees imposed by the users bank. 
+
+While not all users will be fluent in English, it is assumed the users will be familar enough with one of the 4 languages provided to navigate the app without too much difficulty. 
+
+The app will depend on the use of third party services to manage payment. As such, agreements must be made between the Online Virtual Phone System and the chosen third party.
 
 <div class="page-break"></div>
 
@@ -260,7 +275,16 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.2.1 Performance
 
-< The product shall take initial load time depending on internet connection strength, which also depends on the media from which the product is run. >
+#### 3.2.1.1 Load management 
+- The system shall handle all calls up a predefined maximum, determined by the administrators. 
+- The system shall record and display the system load in real time to the administrators.
+
+#### 3.2.1.2 System Speed
+- The app startup time shall not exceed 3 seconds. 
+
+#### 3.2.1.3 Audio Quality
+- The system audio quality shall meet a minimum mean opinion score (MOS) of 4. 
+- The system will provide voice calls with latency exceeding no more than 150ms.  
 
 ### 3.2.2 Reliability
 
@@ -276,29 +300,38 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.2.3 Availability
 
- The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability. 
+- The system shall be available 24/7 with 99.99% uptime.
+- The system shall be available on all major operating systems (Windows, MacOS, Linux, iOS, Android).
+- The system shall be available in 4 languages (English, French, Spanish, Mandarin).
+- The system shall be available in 3 methods of payments (Credit Card, PayPal, Use of third party applications if implemented).
+
+
 
 ### 3.2.4 Security
 
-The system shall use secure sockets in all transactions that include any confidential customer information.
+#### 3.2.4.1 Passwords and sensitive date
+- The system will ensure a newly created password meets an adequate level of complexity.
+- The system shall store end-to-end encrypted passwords.
+- The system shall not store any payment information nor will the system store any personal information in the form of cookies, etc.
 
-The system shall automatically log out all customers after a period of inactivity. 
+#### 3.2.4.2 Voice call security 
+- The system shall screen for incoming scam calls (ie. AI generated calls). 
+- Voice calls will be fully secure with end-to-end encryption. 
 
 ### 3.2.5 Interfaces
 
 #### 3.2.5.1 User Interfaces
-- The Online Virtual Phone System shall provide a user-friendly web interface that allows users to make, receive, and manage virtual phone calls.
+- The OVPS shall provide a user-friendly web interface that allows users to make, receive, and manage virtual phone calls.
 - It should enable users to manage their account settings, view call logs, and utilize additional features such as voicemail, call forwarding, and conferencing.
-- The UI shall be accessible via web browsers and be responsive to ensure usability across various devices like computers, tablets, and smartphones.
+- The UI shall be accessible via desktop application and be responsive to ensure usability across various devices like computers, tablets, and smartphones.
 
 #### 3.2.5.2 Software Interfaces
-- The system shall interface with various software components and external systems to facilitate its functionality. This might include interfacing with:
+- The system shall interface with various software components and external systems to facilitate its functionality. This shall include interfacing with:
     * Billing Systems: to manage user subscriptions, usage billing, and payment processing.
     * CRM Systems: to manage user information, support interactions, and user communication.
     * External APIs: such as SMS gateways, Email systems, or third-party apps to enhance functionality. 
 
 #### 3.2.5.3 Hardware Interfaces
-- While the system is web-based and does not directly interact with hardware, it should be optimized for use on various devices with different hardware configurations.
 - The system should be capable of handling voice data efficiently and ensuring clear audio transmission during calls, considering the hardware capabilities of user devices.
 
 #### 3.2.5.4 Communication Interfaces
@@ -311,14 +344,14 @@ The system shall automatically log out all customers after a period of inactivit
 - Appropriate API integrations shall be established, ensuring secure and reliable data exchange with third-party systems.
 
 #### 3.2.5.6 Accessibility Interfaces
-- The system shall support 5 different languages such as English, Spanish, Hindi, and Mandrin.
+- The system shall support 4 different languages such as English, Spanish, Hindi, and Mandrin.
 - The system shall provide screen reader functionalities.
 - The system shall provide voice to text transcript.>
 
 ## 3.3 Design Constraints
 
 ### 3.3.1 Platform Constraints
-- The Online Virtual Phone System shall be developed as a web-based application to ensure accessibility from various locations and devices, especially considering the remote and virtual aspects of phone systems.
+- The OVPS shall be developed as a web-based application to ensure accessibility from various locations and devices, especially considering the remote and virtual aspects of phone systems.
 - The platform should be compatible with various web browsers, including Google Chrome, Mozilla FireFox, Safari, and Microsoft Edge.>
 
 ### 3.3.2 Technology Constraints
@@ -330,19 +363,19 @@ The system shall automatically log out all customers after a period of inactivit
 ## 3.4 Legal, Copyright, and Other Notices
 
 ### 3.4.1 Legal Compliance
-- The E-Store shall adhere to all applicable local, state, and international laws and regulations related to e-commerce, data protection, and consumer protection. 
+- The OVPS shall adhere to all applicable local, state, and international laws and regulations related to e-commerce, data protection, and consumer protection. 
 
 ### 3.4.2 Copyright Notices
-- All content, including text, graphics, logos, and multimedia within the E-Store, should respect copyright laws and, where applicable, credit should be given to the rightful owners or appropriate licenses obtained.
+- All content, including text, graphics, logos, and multimedia within the OVPS, should respect copyright laws and, where applicable, credit should be given to the rightful owners or appropriate licenses obtained.
 
 ### 3.4.2 User Data Protection
 
-- The E-Store shall comply with global data protection regulations, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), to safeguard user data.
+- The OVPS shall comply with global data protection regulations, such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), to safeguard user data.
 
 ## 3.5 Other Requirements
 
 ### 3.5.1 Scalability
-- The Online Virtual Phone System shall be designed to facilitate the addition of new users and expansion of telecommunication features without compromising performance and user experience.
+- The OVPS shall be designed to facilitate the addition of new users and expansion of telecommunication features without compromising performance and user experience.
 
 ### 3.5.2 Maintainability
 - Regular updates, system monitoring, and customer support shall be integral aspects of the system to ensure long-term functionality and reliability.
@@ -350,7 +383,7 @@ The system shall automatically log out all customers after a period of inactivit
 # 4 Other Supporting Documents
 
 ## 4.1 Documentation
-- Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the Online Virtual Phone System. This may include API documentation, user manuals, and troubleshooting guides.
+- Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the OVPS. This may include API documentation, user manuals, and troubleshooting guides.
 
 ## 4.2 Version Control
 - Detailed records of system versions, updates, and modifications shall be maintained to manage the evolution of the system effectively and to address any future issues or rollbacks.
@@ -359,7 +392,7 @@ The system shall automatically log out all customers after a period of inactivit
 - A detailed quality assurance plan shall be implemented to ensure that the system adheres to specified requirements and provides a reliable, efficient, and secure user experience.
 
 ## 4.4 Customer Support 
-- A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the Online Virtual Phone System.
+- A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the OVPS.
 
 # A. Appendices
 
