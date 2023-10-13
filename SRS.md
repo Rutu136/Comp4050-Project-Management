@@ -30,7 +30,7 @@ Team Endgame
 | --- | --- | --- | --- |
 | 2023-10-09 | Version 1.0 | Converted to markdown format | Dharmit Anghan |
 | 2023-10-10 | Version 1.1 | Added function requirement and Reliability | Rutu Barvaliya |
-| 2023-10-12 | Version 1.2 | Added Interfaces, Design constraints, (Legal, copyright, and other notices), Other requirements, Other supporting documents
+| 2023-10-12 | Version 1.2 | Added Interfaces, Design constraints, (Legal, copyright, and other notices), Other requirements, Other supporting documents | Akinsola Oluwademilade
 
 <div style="page-break-after: always;"></div>
 
