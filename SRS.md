@@ -34,7 +34,7 @@ Team Endgame
 | 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
 | 2023-10-13 | Version 1.4 | Added Availability | Dharmit Anghan |
 | 2023-10-13 | Version 1.5 | Added Interfaces, Design constraints, (Legal, copyright, and other notices), Other requirements, Other supporting documents | Akinsola Oluwademilade
-
+| 2023-10-13 | Version 1.6 | Final Check | Dharmit Anghan |
 
 <div style="page-break-after: always;"></div>
 
