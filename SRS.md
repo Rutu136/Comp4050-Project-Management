@@ -34,7 +34,7 @@ Team Endgame
 | 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
 | 2023-10-13 | Version 1.4 | Added Availability | Dharmit Anghan |
 | 2023-10-13 | Version 1.5 | Added Interfaces, Design constraints, (Legal, copyright, and other notices), Other requirements, Other supporting documents | Akinsola Oluwademilade
-
+| 2023-10-13 | Version 1.6 | Final Check | Dharmit Anghan |
 
 <div style="page-break-after: always;"></div>
 
@@ -79,21 +79,44 @@ Team Endgame
 - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
 
     - [3.2.1 Performance](#321-performance)
+        - [3.2.1.1 Load management](#3211-load-management)
+        - [3.2.1.2 System Speed](#3212-system-speed)
+        - [3.2.1.3 Audio Quality](#3213-audio-quality)
     - [3.2.2 Reliability](#322-reliability)
         - [3.2.2.1 Error Handling and Recovery](#3221-error-handling-and-recovery)
         - [3.2.2.2 Data Backup](#3222-data-backup)
         - [3.2.2.3 Logging and Crash Reports](#3223-logging-and-crash-reports)
     - [3.2.3 Availability](#323-availability)
     - [3.2.4 Security](#324-security)
+        -[3.2.4.1 Passwords and sensitive data](#3241-passwords-and-sensitive-data)
+        -[3.2.4.2 Voice call security](#3242-voice-call-security)
     - [3.2.5 Interfaces](#325-interfaces)
+        - [3.2.5.1 User Interfaces](#3251-user-interfaces)
+        - [3.2.5.2 Software Interfaces](#3252-software-interfaces)
+        - [3.2.5.3 Hardware Interfaces](#3253-hardware-interfaces)
+        - [3.2.5.4 Communication Interfaces](#3254-communication-interfaces)
+        - [3.2.5.5 Third-party Interfaces](#3255-third-party-interfaces)
+        - [3.2.5.6 Accessibility Interfaces](#3256-accessibility-interfaces)
 
 - [3.3 Design Constraints](#33-design-constraints)
+    - [3.3.1 Platform Constraints](#331-platform-constraints)
+    - [3.3.2 Technology Constraints](#332-technology-constraints)
+    - [3.3.3 User Interface Constraints](#333-user-interface-constraints)
 
 - [3.4 Legal, Copyright, and Other Notices](#34-legal-copyright-and-other-notices)
+    - [3.4.1 Legal Compliance](#341-legal-compliance)
+    - [3.4.2 Copyright Notices](#342-copyright)
+    - [3.4.3 User Data Protection](#343-user-data-protection)
 
 - [3.5 Other Requirements](#35-other-requirements)
+    - [3.5.1 Scalability](#351-scalability)
+    - [3.5.2 Maintainability](#352-maintainability)
 
-[4 Other Supporting Documents](#4-other-supporting-documents)
+- [4. Other Supporting Documents](#4-other-supporting-documents)
+    - [4.1 Documentation](#41-documentation)
+    - [4.2 Version Control](#42-version-control)
+    - [4.3 Quality Assurance](#43-quality-assurance)
+    - [4.4 Customer Support](#44-customer-support)
 
 [A. Appendices](#a-appendices)
 
@@ -129,7 +152,8 @@ Through this document, the intent is to create an understanding of the system fo
 - Software Requirements Specification Example
 - IEEE Guide to Software Requirements Specification (ANSI/IEEE Std. 830-1984)
 
-<div class="page-break"></div>
+
+<div style="page-break-after: always;"></div>
 
 # 2. General Description
 
@@ -153,7 +177,8 @@ While not all users will be fluent in English, it is assumed the users will be f
 
 The app will depend on the use of third party services to manage payment. As such, agreements must be made between the Online Virtual Phone System and the chosen third party.
 
-<div class="page-break"></div>
+
+<div style="page-break-after: always;"></div>
 
 # 3. Specific Requirements
 
@@ -190,7 +215,7 @@ This will be the largest and most important section of the SRS. The customer req
 
 ### 3.1.4 Call Processing
 
-#### 3.1.4.1 Call Dailing
+#### 3.1.4.1 Call Dialing
 - The system shall allow users to dial a number directly from their contact list.
 - The system shall allow users to dial a number by typing it on the number keypad.
 - The system shall allow users to copy and paste phone numbers into the dialing screen.
@@ -232,6 +257,8 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall allow users to enter a phone number in the blacklist.
 - The system shall allow users to enter a phone number in spam.
 
+<div style="page-break-after: always;"></div>
+
 ### 3.1.7 Call History
 - The system shall show the number of missed calls to users.
 - The system shall maintain incoming and outgoing call history for up to 4 weeks.
@@ -269,9 +296,9 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall issue bill immediately to a users in case of cancellation of services.
 - The system shall generate warning in the bills in case of users have outstanding balance.
 
-## 3.2 Non-Functional Requirements
+<div style="page-break-after: always;"></div>
 
-Non-functional requirements may exist for the following attributes. Often these requirements must be achieved at a system-wide level rather than at a unit level. State the requirements in the following sections in measurable terms (e.g., 95% of transactions shall be processed in less than a second, system downtime may not exceed 1 minute per day, > 30-day MTBF value, etc).
+## 3.2 Non-Functional Requirements
 
 This section describes non-functional features of the software project. Specify the requirements as user story.
 
@@ -307,11 +334,11 @@ This section describes non-functional features of the software project. Specify 
 - The system shall be available in 4 languages (English, French, Spanish, Mandarin).
 - The system shall be available in 3 methods of payments (Credit Card, PayPal, Use of third party applications if implemented).
 
-
+<div style="page-break-after: always;"></div>
 
 ### 3.2.4 Security
 
-#### 3.2.4.1 Passwords and sensitive date
+#### 3.2.4.1 Passwords and sensitive data
 - The system will ensure a newly created password meets an adequate level of complexity.
 - The system shall store end-to-end encrypted passwords.
 - The system shall not store any payment information nor will the system store any personal information in the form of cookies, etc.
@@ -341,6 +368,8 @@ This section describes non-functional features of the software project. Specify 
 - The system shall utilize VoIP (Voice over Internet Protocol) technologies to facilitate virtual phone calls.
 - It should securely transmit voice and data over the internet, ensuring clear, reliable, and secure communication.
 - Communication with external systems (like billing or CRM) should be done securely using API calls over HTTPS to ensure data integrity and security.
+
+<div style="page-break-after: always;"></div>
 
 #### 3.2.5.5 Third-party Interfaces
 - The system may interact with third-party services for specific functionalities (like SMS notifications, payment processing, or email communications).
@@ -383,7 +412,8 @@ This section describes non-functional features of the software project. Specify 
 ### 3.5.2 Maintainability
 - Regular updates, system monitoring, and customer support shall be integral aspects of the system to ensure long-term functionality and reliability.
 
-# 4 Other Supporting Documents
+
+# 4. Other Supporting Documents
 
 ## 4.1 Documentation
 - Comprehensive documentation shall be available for both developers and end-users to facilitate understanding and usage of the OVPS. This may include API documentation, user manuals, and troubleshooting guides.
@@ -396,6 +426,8 @@ This section describes non-functional features of the software project. Specify 
 
 ## 4.4 Customer Support 
 - A dedicated customer support system, including a helpdesk and/or chat support, shall be available to assist users with queries, issues, or difficulties encountered while using the OVPS.
+
+<div style="page-break-after: always;"></div>
 
 # A. Appendices
 
