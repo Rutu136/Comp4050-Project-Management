@@ -125,7 +125,8 @@ Through this document, the intent is to create an understanding of the system fo
 - Software Requirements Specification Example
 - IEEE Guide to Software Requirements Specification (ANSI/IEEE Std. 830-1984)
 
-<div class="page-break"></div>
+
+<div style="page-break-after: always;"></div>
 
 # 2. General Description
 
@@ -149,7 +150,8 @@ While not all users will be fluent in English, it is assumed the users will be f
 
 The app will depend on the use of third party services to manage payment. As such, agreements must be made between the Online Virtual Phone System and the chosen third party.
 
-<div class="page-break"></div>
+
+<div style="page-break-after: always;"></div>
 
 # 3. Specific Requirements
 
@@ -228,6 +230,8 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall allow users to enter a phone number in the blacklist.
 - The system shall allow users to enter a phone number in spam.
 
+<div style="page-break-after: always;"></div>
+
 ### 3.1.7 Call History
 - The system shall show the number of missed calls to users.
 - The system shall maintain incoming and outgoing call history for up to 4 weeks.
@@ -264,6 +268,8 @@ This will be the largest and most important section of the SRS. The customer req
 - The system shall allow administrator to change amounts charged for call by adding or editing billing plans.
 - The system shall issue bill immediately to a users in case of cancellation of services.
 - The system shall generate warning in the bills in case of users have outstanding balance.
+
+<div style="page-break-after: always;"></div>
 
 ## 3.2 Non-Functional Requirements
 
@@ -307,7 +313,7 @@ This section describes non-functional features of the software project. Specify 
 
 ### 3.2.4 Security
 
-#### 3.2.4.1 Passwords and sensitive date
+#### 3.2.4.1 Passwords and sensitive data
 - The system will ensure a newly created password meets an adequate level of complexity.
 - The system shall store end-to-end encrypted passwords.
 - The system shall not store any payment information nor will the system store any personal information in the form of cookies, etc.
@@ -320,6 +326,8 @@ This section describes non-functional features of the software project. Specify 
 
 ##
 
+<div style="page-break-after: always;"></div>
+
 ## 3.3 Design Constraints
 
 ###
@@ -331,6 +339,9 @@ This section describes non-functional features of the software project. Specify 
 ## 3.5 Other Requirements
 
 Catchall section for any additional requirements.
+
+
+<div style="page-break-after: always;"></div>
 
 # 4 Other Supporting Documents
 
