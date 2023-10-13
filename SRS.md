@@ -28,10 +28,7 @@ Team Endgame
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
-| 2023-10-09 | Version 1.0 | Converted to markdown format | Dharmit Anghan |
-| 2023-10-09 | Version 1.1 | Added introduction | Dharmit Anghan |
-| 2023-10-10 | Version 1.2 | Added function requirement and Reliability | Rutu Barvaliya |
-| 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
+| <date> | <Version 1> | <Your Name> | <First Revision> |
 
 <div class="page-break"></div>
 
