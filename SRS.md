@@ -32,6 +32,7 @@ Team Endgame
 | 2023-10-09 | Version 1.1 | Added Introduction, purpose, definitions, and references | Dharmit Anghan |
 | 2023-10-10 | Version 1.2 | Added function requirement and Reliability | Rutu Barvaliya |
 | 2023-10-12 | Version 1.3 | Added safety/performance requirements and general description | Breanna Brown |
+| 2023-10-13 | Version 1.4 | Added Availability | Dharmit Anghan |
 
 <div style="page-break-after: always;"></div>
 
