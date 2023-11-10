@@ -84,9 +84,13 @@ The language barrier within the team, since some of the team members cannot spea
 ### **Regulatory Compliance**
 - The risk arises from the diverse geographical origins of the development team, leading to potential variations in legal regulations. Differences in legal frameworks and compliance standards may affect the team's understanding of regulatory requirements.
 
+<div style="page-break-after: always;"></div>
+
 ## Risk Graph Representation
 
 ![Risk Managment](./RiskManagement.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Risk Table (Sorted based on Risk Exposure)
 
@@ -116,6 +120,7 @@ Inadequate customer feedback mechanism.|Customer|The potential for insufficient 
 Currency fluctuation increasing costs|Budget/Cost|The project budget is vulnerable to exchange rate volatility, which could inflate the cost of resources procured from abroad. |0.1|$70,000|$7,000|
 Lack of a clear maintenance transition plan|Maintenance|The absence of a structured plan for transitioning the ARRS from development to maintenance could result in operational inefficiencies, and reduced user satisfaction|0.1|$60,000|$6,000|
 
+<div style="page-break-after: always;"></div>
 
 ## Identify the top 5 risks
 
@@ -127,6 +132,7 @@ The risk is that the insufficient testing on the prototype, resulting from time 
 Variations in legal regulations due to developers from different countries can affect the project’s progress.|Legal and Compliance Team|Mitigating|Conduct comprehensive legal compliance training for all team members, focusing on both international and local regulations relevant to the project. Regularly update the team on legal changes.|Allocate $10,000 for legal consultation and training materials.|Begin training in the early stages of the project and give regular updates throughout the project lifecycle.|In the case of significant legal changes, reassess and adjust project plans according to how significant the situation will be. Also, consider hiring legal experts for ongoing support if necessary.
 Most developers lack experience in software engineering concepts, especially object-oriented programming, leading to technical debt, bugs, delays, and difficulty in implementing new features.|Development Team|Mitigating|Provide intensive training in software engineering concepts and object-oriented programming. Implement a mentorship program with experienced developers.|Allocate additional budget for training programs and mentorship.|Start training at project commencement and continue throughout the development phase.| In case of persistent skill gaps, consider outsourcing critical development tasks or hiring additional skilled developers.
 
+<div style="page-break-after: always;"></div>
 
 <center><H1>Conclusion</H1></center>
 
