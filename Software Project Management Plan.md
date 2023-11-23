@@ -123,9 +123,80 @@ Team Endgame
 
 # 3. Managerial Process Plans
 ## 3.1 Start-up Plan
+
 ### 3.1.1 Estimates
+The SPMP details the necessary resources and materials for initiating the project. This includes plans for estimating, staffing, acquiring resources, and training.
+Estimates
+### 3.1.1.1 Estimation Plan
+The cost estimation for the project are provided as follows considering the client requirements and project deliverables.  
+|Category|Factors |Confidenct Level|Basis of Estimation|
+|----------|----------|----------|----------|
+|Estimated Cost| 500,000$|High|Detailed cost estimation using a bottom-up approach. Cost breakdown includes development, testing, project management, and contingency.|
+|Estimate Schedule|6 months|Mediun-High|Gantt chart-based scheduling, considering the complexity of tasks, dependencies, and historical data from similar projects.|
+|Resource Requirements|5 members|Medium|Work breakdown structure (WBS) and resource allocation based on individual tasks and project requirements.|
+
+A detailed breakdown of cost estimation is as: 
+| Category            | Cost   | Basis of Estimation                                                 |
+|---------------------|--------|------------------------------|
+| Software and Tools  | 50,000 | Based on the project requirements and use-case as well as considering the software licensing cost |
+| Hardware Costs      | 30,000 | Based on hardware requirements for the project |
+| Training            | 20,000 | Based on time needed and complexity of Software  |
+| Project Management  | 60,000 | Costs related to project management activities and any associated project management tools.|
+| Testing             | 70,000 | Based on the intensity of quality assurance for the project          |
+| UX/UI design        | 40,000 | Depending on the complexity of design and expertise required.        |
+| Backend servers     | 90,000 | Depending on the infrastructure requirements and hosting costs.      |
+| Development Costs   | 90,000 | Depending on the complexity of project requirements and work needed for a seamless product. |
+| Administrative Costs| 30,000 | Costs related to administrative activities such as documentation, meetings, and training. |
+| Contingency Reserve | 20,000 | 10% of the project budget    |
+| **Total Cost**      | **500,000** |       |
+
+### 3.1.1.2 Re-Estimation Plan
+
+Project re-estimation plan with method and tools used for cost, schedule and resource estimation would be as follows:
+
+| Category  | Method  | Tools  | Schedules for Re-evaluations      |
+|----------|------------------|--------------------|----------------|
+| Cost Re-Estimation | Bottom-up re-estimation| Cost Management Software | Triggered when significant milestones are achieved |
+| Schedule Re-Estimation | PERT re-evaluation | Project Management Software | Monthly or when significant milestones are achieved or delayed |
+| Resource Re-Estimation | WBS review and reallocation| Resource Management Tools   | Reviews during major project phases and project schedule  |
+
+
 ### 3.1.2 Staffing
 ### 3.1.3 Resource Acquisition
+This resource acquisition plan aims to optimize efficiency, minimize risks, and ensure the availability of all essential resources throughout the OVPS project.
+
+### 3.1.3.1 Identification of resources
+
+The resource acquisition process for the OVPS project involves the following steps:
+
+ a. Identification of Resources:
+
+Conduct a thorough analysis to identify all necessary resources, including personnel, equipment, hardware, software, licensing, compliance, and tools required for the project.
+
+ b. Cost Estimation:
+
+Estimate the costs associated with each resource, considering licensing and compliance rates and project-specific requirements.
+
+c. Contingency reserve resource:
+
+Conducting a thorough analysis of potential identified risks through risk management plan.
+
+### 3.1.3.2 Assignment of responsibility 
+
+- Project Manager   : Overall responsibility for resource acquisition and timely risk evaluation for contingency reserves.
+- Team Member       : Each Team Member is responsible for maintaining the acquired hardware and software resource as well as to make sure the required tools are available throughout the development process.
+- HR Manager        : Personnel acquisition and compliance.
+- IT Manager        : Oversight of software and hardware acquisition.
+
+### 3.1.3.3 Acquisition plans and needs
+
+- Equipment: Acquire hardware during the initial phase to facilitate development.
+- Software: Acquire licenses and necessary software tools during the early stages of the project.
+
+### 3.1.3.4 Constraints
+
+Budget limitations may impact the scale or timing of resource acquisition.
+
 
 ## 3.2 Work Plan
 ### 3.2.1 Work Breakdown Structure
@@ -161,8 +232,108 @@ Team Endgame
 | 28 | Project Closure | Jan 13, 2023 | Jan 15, 2023 | - Completion of all project deliverables and activities. <br> - Formal closure documentation prepared and approved. | Project Feedback | N/A |
 
 ### 3.2.2 Schedule Allocation
+#### 3.2.2.1 Scheduling Relationships and Time-Sequencing Constraints:
+
+The project work activities are scheduled based on Gantt chart and PERT chart. The Gantt chart is used to schedule the project activities and PERT chart is used to estimate the time required to complete each activity to illustrate concurrent activities and dependencies. 
+
+#### 3.2.2.2 Critical Path Identification:
+
+The critical path in the schedule has been identified through PERT chart. This critical path outlines the minimum time required to complete the project. It is important to note that the critical path may change as the project progresses and changes are requested by the client.
+
+#### 3.2.2.3 Constraints on Scheduling:
+
+Certain work activities may have scheduling constraints such as dependencies, resource availability, and budget limitations. These constraints are identified and addressed in the project schedule.
+
+#### 3.2.2.4 Schedule Milestones:
+
+Key schedule milestones have been identified to assess the progress of the project, they are as followed: 
+- The completion of the project charter
+- SRS
+- Project Planning
+- Risk Assessment
+- Interface Prototype Design
+- Software Development
+- Testing
+- Documentation
+- Training
+- Deployment
+- Project Closure
+
+These milestones serve as a basis for project monitoring and control.
+
+
 ### 3.2.3 Resource Allocation
+
+Detailed Itemization of Resources are as followed:
+
+- Computing Resources:
+
+    - High-performance workstations for developers and designers
+    - Server infrastructure for backend development and testing
+    - Network infrastructure for connectivity and testing
+    - Storage infrastructure for data storage and backup
+    - Cloud infrastructure for deployment and testing
+    - Security infrastructure for encryption and security
+
+- Software Tools:
+    - Integrated Development Environment (IDE) for coding
+    - Graphic design tools for UX/UI design
+    - Testing tools for quality assurance
+    - Project management tools for project planning and tracking
+    - Documentation tools for project documentation
+    - Communication tools for team collaboration
+    - Version control tools for code management
+    - Deployment tools for system deployment
+    - Security tools for encryption and security
+    - Network tools for network and connectivity logic
+    - Training tools for training and feedback collection
+
+
+- Special Testing and Simulation Facilities:
+    - Dedicated testing environment to simulate real-world scenarios
+    - Testing tools for performance and security testing
+    - Testing tools for load testing
+    - Testing tools for unit testing
+    - Testing tools for integration testing
+    - Testing tools for system testing
+    - Testing tools for user acceptance testing
+
+Resource allocation is dynamic and may be adjusted based on project requirements and constraints. Regular resource allocation reviews are conducted to ensure the availability of all necessary resources.
+
 ### 3.2.4 Budget Allocation
+
+1. Software and Tools: $50,000
+    - Computing resources: $10,000
+    - Software tools: $40,000
+2. Hardware Costs: $30,000
+    - Acquisition of hardware for development and testing: $30,000
+3. Training: $20,000
+    - Training programs and materials: $20,000
+
+4. Project Management: $60,000
+    - Project management tools and software: $30,000
+    - Administrative support for project management: $30,000
+
+5. Testing: $70,000
+    - Special testing and simulation facilities: $50,000
+    - Testing tools: $20,000
+6. UX/UI design: $40,000
+    - Graphic design tools: $40,000
+
+7.  Backend Servers: $90,000
+    - Acquisition and setup of backend server infrastructure: $90,000
+
+8. Development Costs: $90,000
+    - Development tools and software licenses: $70,000
+    - Contingency reserve for development: $20,000
+
+9. Administrative Costs: $30,000
+    - Documentation : $20,000
+    - Meetings : $5,000
+    - Training : $5,000
+
+10. Contingency Reserve: $20,000
+    - Unforeseen expenses and risks: $20,000
 
 ## 3.3 Project Tracking Plan
 ### 3.3.1 Requirements Control
