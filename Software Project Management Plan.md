@@ -169,17 +169,17 @@ This resource acquisition plan aims to optimize efficiency, minimize risks, and 
 
 The resource acquisition process for the OVPS project involves the following steps:
 
- a. Identification of Resources:
+a. Identification of Resources:
 
-Conduct a thorough analysis to identify all necessary resources, including personnel, equipment, hardware, software, licensing, compliance, and tools required for the project.
+- Conduct a thorough analysis to identify all necessary resources, including personnel, equipment, hardware, software, licensing, compliance, and tools required for the project.
 
- b. Cost Estimation:
+b. Cost Estimation:
 
-Estimate the costs associated with each resource, considering licensing and compliance rates and project-specific requirements.
+- Estimate the costs associated with each resource, considering licensing and compliance rates and project-specific requirements.
 
 c. Contingency reserve resource:
 
-Conducting a thorough analysis of potential identified risks through risk management plan.
+- Conducting a thorough analysis of potential identified risks through risk management plan.
 
 ### 3.1.3.2 Assignment of responsibility 
 
