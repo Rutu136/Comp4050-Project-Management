@@ -106,9 +106,9 @@ The project will not involve supplying the servers, hardware or operating system
 
 ### 1.1.3 Objectives
 The objectives of the Online Virtual Phone System are as follows:
-1. Our goal is to create a virtual phone system that will generate $18 million in revenue by the end of the first year of its release. We will do so by charging usage fees and using ad revenue to generate additional income. Increased revenue will allow for additional resources to be implemented to improve customer satisfaction via improved performance. 
-2. Build a robust and scalable system that allows for a minimum of 10k users to make calls simultaneously as this will allow for users across the country to access and utilize our service and increase profitability. We expect to have the project completed by October 2024. 
-3. Develop a secure and scalable cloud-based solution that allows seamless calling over the internet, with an expected 99.5% uptime. We expect to implement this with deployment of the MVP. This will ensure a high level of customer satisfaction that will improve customer retention and growth. 
+- Our goal is to create a virtual phone system that will generate $18 million in revenue by the end of the first year of its release. We will do so by charging usage fees and using ad revenue to generate additional income. Increased revenue will allow for additional resources to be implemented to improve customer satisfaction via improved performance. 
+- Build a robust and scalable system that allows for a minimum of 10k users to make calls simultaneously as this will allow for users across the country to access and utilize our service and increase profitability. We expect to have the project completed by October 2024. 
+- Develop a secure and scalable cloud-based solution that allows seamless calling over the internet, with an expected 99.5% uptime. We expect to implement this with deployment of the MVP. This will ensure a high level of customer satisfaction that will improve customer retention and growth. 
 For a comprehensive overview of the project requirements, refer to the project SRS section 3. 
 
 ## 1.2 Assumptions, Constraints and Risks
