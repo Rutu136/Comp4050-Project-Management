@@ -125,13 +125,15 @@ Team Endgame
 ## 3.1 Start-up Plan
 
 ### 3.1.1 Estimates
+
 The SPMP details the necessary resources and materials for initiating the project. This includes plans for estimating, staffing, acquiring resources, and training.
-Estimates
+
 ### 3.1.1.1 Estimation Plan
-The cost estimation for the project are provided as follows considering the client requirements and project deliverables.  
+The cost estimation for the project are provided as follows considering the client requirements and project deliverables.
+
 |Category|Factors |Confidenct Level|Basis of Estimation|
 |----------|----------|----------|----------|
-|Estimated Cost| 500,000$|High|Detailed cost estimation using a bottom-up approach. Cost breakdown includes development, testing, project management, and contingency.|
+|Estimated Cost| $500,000|High|Detailed cost estimation using a bottom-up approach. Cost breakdown includes development, testing, project management, and contingency.|
 |Estimate Schedule|6 months|Mediun-High|Gantt chart-based scheduling, considering the complexity of tasks, dependencies, and historical data from similar projects.|
 |Resource Requirements|5 members|Medium|Work breakdown structure (WBS) and resource allocation based on individual tasks and project requirements.|
 
@@ -162,6 +164,71 @@ Project re-estimation plan with method and tools used for cost, schedule and res
 
 
 ### 3.1.2 Staffing
+
+1. The staff required to manage the project are as follows:
+
+    - 1 Project Manager
+    - 4 Developers
+    - 1 Database Administrator
+    - 2 UX/UI Designers
+    - 2 System Managers
+    - 1 IT Administrator
+    - 1 Quality Assurance Engineer
+
+2. Staff and Skill Levels required at each phase of the project are as follows: 
+
+| Project Phase          | Personnel                   | Skill Level               |  Number of Employees Needed| 
+|------------------------|-----------------------------|---------------------------|----------------------------|
+| Project Initiation      | Project Manager            | Senior                    |1                           |
+| Requirement and Planning| Project Manager            | Senior                    |1                           |
+|                         | UX/UI Designers            | Intermediate              |1                           |
+|                         | Developers                 | Senior                    |2                           |
+|                         | Database Administrator     | Senior                    |1                           |
+| Design                  | UX/UI Designers            | Intermediate              |1                           |
+|                         |                            | Senior                    |1                           |
+|                         | Developers                 | Intermediate              |1                           |
+| Development             | Developers                 | Intermediate              |2                           |
+|                         |                            | Senior                    |2                           |
+|                         | Database Administrator     | Senior                    |1                           |
+|                         | IT Administrator           | Intermediate              |1                           |
+| Testing                 | Quality Assurance Engineer | Intermediate              |1                           |
+|                         | Developers                 | Senior                    |1                           |
+| Deployment              | Project Manager            | Senior                    |1                           |
+|                         | System Managers            | Intermediate              |2                           |
+|                         | IT Administrator           | Intermediate              |1                           |
+| Project Closure         | Project Manager            | Senior                    |1                           |
+|                         | UX/UI Designers            | Senior                    |1                           |
+|                         | Developers                 | Senior                    |4                           |
+|                         | Database Administrator     | Senior                    |1                           |
+|                         | IT Administrator           | Intermediate              |1                           |
+|                         | Quality Assurance Engineer | Intermediate              |1                           |
+|                         | System Managers            | Intermediate              |2                           |
+
+3. Duration of Personnel Assignment:
+
+    - The project manager will be assigned to the project for the entire duration of the project.
+    - The senior developers will be assigned to the project for the entire duration of the project.
+    - The intermediate developers will be assigned to the project for the development phase of the project.
+    - The intermediate UX/UI designers will be assigned to the project for the design phase of the project.
+    - The senior UX/UI designers will be assigned to the project for the entire duration of the project.
+    - The database administrator will be assigned to the project for the entire duration of the project.
+    - The IT administrator will be assigned to the project at the beginning of the development phase of the project.
+    - The quality assurance engineer will be assigned to the project at the beginning of the testing phase of the project.
+    - The system managers will be assigned to the project for the entire duration of the project. 
+
+4. Sources of Personnel:
+
+    - The project manager will be transferred from within the organization.
+    - The senior developers will be transferred from within the organization.
+    - The senior UX/UI designers will be transferred from within the organization.
+    - The intermediate developers will be hired on contract from outside the organization.
+    - The intermediate UX/UI designers will be hired on contract from outside the organization.
+    - The database administrator will be hired from outside the organization.
+    - The IT administrator will be hired from outside the organization.
+    - The quality assurance engineer will be hired on contract from outside the organization.
+    - The system managers will be hired from outside the organization.        
+
+
 ### 3.1.3 Resource Acquisition
 This resource acquisition plan aims to optimize efficiency, minimize risks, and ensure the availability of all essential resources throughout the OVPS project.
 
@@ -232,17 +299,17 @@ The resource acquisition process for the OVPS project involves the following ste
 | 28 | Project Closure | Jan 13, 2023 | Jan 15, 2023 | - Completion of all project deliverables and activities. <br> - Formal closure documentation prepared and approved. | Project Feedback | N/A |
 
 ### 3.2.2 Schedule Allocation
-#### 3.2.2.1 Scheduling Relationships and Time-Sequencing Constraints:
+1. Scheduling Relationships and Time-Sequencing Constraints:
 
-- The project work activities are scheduled based on Gantt chart and PERT chart. The Gantt chart is used to schedule the project activities and PERT chart is used to estimate the time required to complete each activity to illustrate concurrent activities and dependencies. 
+    - The project work activities are scheduled based on Gantt chart and PERT chart. The Gantt chart is used to schedule the project activities and PERT chart is used to estimate the time required to complete each activity to illustrate concurrent activities and dependencies. 
 
-#### 3.2.2.2 Critical Path Identification:
+2. Critical Path Identification:
 
-- The critical path in the schedule has been identified through PERT chart. This critical path outlines the minimum time required to complete the project. It is important to note that the critical path may change as the project progresses and changes are requested by the client.
+    - The critical path in the schedule has been identified through PERT chart. This critical path outlines the minimum time required to complete the project. It is important to note that the critical path may change as the project progresses and changes are requested by the client.
 
-#### 3.2.2.3 Constraints on Scheduling:
+3. Constraints on Scheduling:
 
-- Certain work activities may have scheduling constraints such as dependencies, resource availability, and budget limitations. These constraints are identified and addressed in the project schedule.
+    - Certain work activities may have scheduling constraints such as dependencies, resource availability, and budget limitations. These constraints are identified and addressed in the project schedule.
 
 #### 3.2.2.4 Schedule Milestones:
 
