@@ -169,17 +169,17 @@ This resource acquisition plan aims to optimize efficiency, minimize risks, and 
 
 The resource acquisition process for the OVPS project involves the following steps:
 
-a. Identification of Resources:
+1. Identification of Resources:
 
-- Conduct a thorough analysis to identify all necessary resources, including personnel, equipment, hardware, software, licensing, compliance, and tools required for the project.
+    - Conduct a thorough analysis to identify all necessary resources, including personnel, equipment, hardware, software, licensing, compliance, and tools required for the project.
 
-b. Cost Estimation:
+2. Cost Estimation:
 
-- Estimate the costs associated with each resource, considering licensing and compliance rates and project-specific requirements.
+    - Estimate the costs associated with each resource, considering licensing and compliance rates and project-specific requirements.
 
-c. Contingency reserve resource:
+3. Contingency reserve resource:
 
-- Conducting a thorough analysis of potential identified risks through risk management plan.
+    - Conducting a thorough analysis of potential identified risks through risk management plan.
 
 ### 3.1.3.2 Assignment of responsibility 
 
@@ -195,7 +195,7 @@ c. Contingency reserve resource:
 
 ### 3.1.3.4 Constraints
 
-Budget limitations may impact the scale or timing of resource acquisition.
+- Budget limitations may impact the scale or timing of resource acquisition.
 
 
 ## 3.2 Work Plan
@@ -234,39 +234,42 @@ Budget limitations may impact the scale or timing of resource acquisition.
 ### 3.2.2 Schedule Allocation
 #### 3.2.2.1 Scheduling Relationships and Time-Sequencing Constraints:
 
-The project work activities are scheduled based on Gantt chart and PERT chart. The Gantt chart is used to schedule the project activities and PERT chart is used to estimate the time required to complete each activity to illustrate concurrent activities and dependencies. 
+- The project work activities are scheduled based on Gantt chart and PERT chart. The Gantt chart is used to schedule the project activities and PERT chart is used to estimate the time required to complete each activity to illustrate concurrent activities and dependencies. 
 
 #### 3.2.2.2 Critical Path Identification:
 
-The critical path in the schedule has been identified through PERT chart. This critical path outlines the minimum time required to complete the project. It is important to note that the critical path may change as the project progresses and changes are requested by the client.
+- The critical path in the schedule has been identified through PERT chart. This critical path outlines the minimum time required to complete the project. It is important to note that the critical path may change as the project progresses and changes are requested by the client.
 
 #### 3.2.2.3 Constraints on Scheduling:
 
-Certain work activities may have scheduling constraints such as dependencies, resource availability, and budget limitations. These constraints are identified and addressed in the project schedule.
+- Certain work activities may have scheduling constraints such as dependencies, resource availability, and budget limitations. These constraints are identified and addressed in the project schedule.
 
 #### 3.2.2.4 Schedule Milestones:
 
-Key schedule milestones have been identified to assess the progress of the project, they are as followed: 
-- The completion of the project charter
-- SRS
-- Project Planning
-- Risk Assessment
-- Interface Prototype Design
-- Software Development
-- Testing
-- Documentation
-- Training
-- Deployment
-- Project Closure
+1. Key schedule milestones have been identified to assess the progress of the project, they are as followed: 
 
-These milestones serve as a basis for project monitoring and control.
+    - The completion of the project charter
+    - SRS
+    - Project Planning
+    - Risk Assessment
+    - Interface Prototype Design
+    - Software Development
+    - Testing
+    - Documentation
+    - Training
+    - Deployment
+    - Project Closure
+
+2. These milestones serve as a basis for project monitoring and control.
 
 
 ### 3.2.3 Resource Allocation
 
-Detailed Itemization of Resources are as followed:
+#### 3.2.3.1 Detailed Itemization of Resources are as followed:
 
-- Computing Resources:
+Following are the resources required for the project:
+
+1. Computing Resources:
 
     - High-performance workstations for developers and designers
     - Server infrastructure for backend development and testing
@@ -275,7 +278,7 @@ Detailed Itemization of Resources are as followed:
     - Cloud infrastructure for deployment and testing
     - Security infrastructure for encryption and security
 
-- Software Tools:
+2. Software Tools:
     - Integrated Development Environment (IDE) for coding
     - Graphic design tools for UX/UI design
     - Testing tools for quality assurance
@@ -289,7 +292,7 @@ Detailed Itemization of Resources are as followed:
     - Training tools for training and feedback collection
 
 
-- Special Testing and Simulation Facilities:
+3. Special Testing and Simulation Facilities:
     - Dedicated testing environment to simulate real-world scenarios
     - Testing tools for performance and security testing
     - Testing tools for load testing
@@ -301,6 +304,8 @@ Detailed Itemization of Resources are as followed:
 Resource allocation is dynamic and may be adjusted based on project requirements and constraints. Regular resource allocation reviews are conducted to ensure the availability of all necessary resources.
 
 ### 3.2.4 Budget Allocation
+
+The budget for the project is estimated to be $500,000. The budget is allocated as follows:
 
 1. Software and Tools: $50,000
     - Computing resources: $10,000
@@ -336,10 +341,73 @@ Resource allocation is dynamic and may be adjusted based on project requirements
     - Unforeseen expenses and risks: $20,000
 
 ## 3.3 Project Tracking Plan
+
 ### 3.3.1 Requirements Control
+
+1. Requirements changes are reported and controlled through the following steps:
+    - Identify the change request
+    - Analyze the impact of the change request
+    - Approve or reject the change request
+    - Implement and Validate the change request
+    - Update the requirements documentation
+
+2. The impact of requirement changes is assessed based on the following factors:
+    - Project Schedule
+    - Project Budget
+    - Project Scope
+    - Project Quality
+    - Project Resources
+    - Project Risks
+    - Project Stakeholders
+    - Project Deliverables
+    - Project Documentation
+    - Project Training
+    - Project Deployment
+    - Project Closure 
+
 ### 3.3.2 Schedule Control
+1. Schedule Control Process:
+    - Regular schedule reviews are conducted to assess the progress of the project.
+    - If the project is behind schedule, the project manager will identify the cause of the delay and take corrective actions.
+    
+2. Tools for Schedule Control:
+    - Gantt chart
+    - PERT chart
+    - Project management software
+    - Project management tools
+
+3. Objective Criteria for Schedule Control:
+    - Project milestones and deliverables will be assessed to determine if the project is on schedule.
+    - The critical path will be assessed to determine if the project is on schedule.      
+
 ### 3.3.3 Communication Plan
+
+1. Method and Tools for Communication:
+    - Project Management Software for communication between the project manager and the development team.
+    - Regular meetings will be conducted to discuss project progress and issues.
+    - Microsoft Teams will be used for communication between the project team and stakeholders.
+    - Regular Communication with the client to ensure the project is on track and meets the client’s requirements.
+
+2. Frequency of Communication:
+    - Daily communication between the project manager and the development team.
+    - Weekly meetings to discuss project progress and issues.
+    - Monthly meetings with the client to discuss project progress and issues.
+
 ### 3.3.4 Project Closeout Plan
+
+1. Plans for Project Closeout:
+    - Project closure documentation will be prepared and approved.
+    - Project deliverables will be delivered to the client.
+    - Project feedback will be collected from the client.
+    - Project feedback will be used to improve the following:
+        - Project management process
+        - Development process
+        - Testing process
+        - Documentation process
+        - Training process
+        - Deployment process
+        - Project closure process
+
 
 # 4. Technical Process Plans
 ## 4.1 Process Model
