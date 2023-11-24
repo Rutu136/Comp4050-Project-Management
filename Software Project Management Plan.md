@@ -47,12 +47,20 @@ Team Endgame
 3. [Managerial Process Plans](#3-managerial-process-plans)
     - [3.1 Start-up Plan](#31-start-up-plan)
         - [3.1.1 Estimates](#311-estimates)
+            - [3.1.1.1 Estimation Plan](#3111-estimation-plan)
+            - [3.1.1.2 Re-Estimation Plan](#3112-re-estimation-plan)           
         - [3.1.2 Staffing](#312-staffing)
         - [3.1.3 Resource Acquisition](#313-resource-acquisition)
+            - [3.1.3.1 Identification of resources](#3131-identification-of-resources)
+            - [3.1.3.2 Assignment of responsibility](#3132-assignment-of-responsibility)
+            - [3.1.3.3 Acquisition plans and needs](#3133-acquisition-plans-and-needs)
+            - [3.1.3.4 Constraints](#3134-constraints)
     - [3.2 Work Plan](#32-work-plan)
         - [3.2.1 Work Breakdown Structure](#321-work-breakdown-structure)
         - [3.2.2 Schedule Allocation](#322-schedule-allocation)
+            - [3.2.2.1 Schedule Milestones](#3221-schedule-milestones)
         - [3.2.3 Resource Allocation](#323-resource-allocation)
+            - [3.2.3.1 Detailed Itemization of Resources are as followed](#3231-detailed-itemization-of-resources-are-as-followed)
         - [3.2.4 Budget Allocation](#324-budget-allocation)
     - [3.3 Project Tracking Plan](#33-project-tracking-plan)
         - [3.3.1 Requirements Control](#331-requirements-control)
@@ -406,7 +414,7 @@ The resource acquisition process for the OVPS project involves the following ste
 
     - Certain work activities may have scheduling constraints such as dependencies, resource availability, and budget limitations. These constraints are identified and addressed in the project schedule.
 
-#### 3.2.2.4 Schedule Milestones:
+#### 3.2.2.1 Schedule Milestones:
 
 1. Key schedule milestones have been identified to assess the progress of the project, they are as followed: 
 
