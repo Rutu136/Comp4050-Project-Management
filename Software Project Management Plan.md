@@ -611,18 +611,28 @@ Project closure| 13/01/2024 - 15/01/2024 | - Ensure all project components are f
 
 
 ## 4.2 Methods, Tools, and Techniques
-For the development of our Online Virtual Phone System (OVPS), we have employed an agile methodology, ensuring flexibility and an iterative process throughout the project lifestyle. Our team has utilized GitHub for version control, enabling effective collaboration, code reviews, and management of changes.
 
-The primary programming language chosen for development is Python, known for its readability and efficiency. The development environment is supported by a variety of integrated development Environments (IDEs) with a preference for Visual Studio code due to its versatility and comprehensive support for Python.
+Methods, Tools and Techniques for the Online Virtual Phone System project are as follows:
 
-Our team has established a practice of peer reviews for coach submissions, and ensuring that all contributions meet our defining coding standards and quality expectations before integration into the project.
+- Development Methodology: 
+    - Employed Agile methodology for flexibility and iterative development.
+    - Ensured an iterative process throughout the project lifecycle.
+- Version Control:
+    - Utilized GitHub for version control.
+    - Enabled effective collaboration, code reviews, and management of changes.
+    - Ensured all changes are tracked and documented.
+    - Recorded system versions, updates, and modifications.
+- Programming Language:
+    - Chose Python for its readability and efficiency.
+- Development Environment:
+    - Utilized a variety of integrated development Environments (IDEs) with a preference for Visual Studio code due to its versatility and comprehensive support for Python.
+- Quality Assurance:
+    - Established a practice of peer reviews for coach submissions.
+    - Ensured all contributions meet our defining coding standards and quality expectations before integration into the project.
+- Documentation:
+    - Designed to be comprehensive for developers and end-users.
 
-Documentation is a critical part of our process, involving user manuals, and troubleshooting guides, which are designed to be comprehensive for developers and end-users.
-
-To manage the evolution of our system effectively, we maintain detailed records of system versions, updates, and modifications. This version control process is crucial for addressing future issues or implementing rollbacks if necessary.
-
-Finally, customer support is integral to our operations, with a dedicated helpdesk and chat support available to assist users with any queries, issues, or difficulties they encounter while using OVPS.
-This structured approach to development, paired with our choice of tools and rigorous quality practices, underscores our commitment to delivering a high-quality, user-centric product.
+This structured approach to development, paired with our choice of tools and rigorous quality practices, shows our commitment to delivering a high-quality product.
 
 ## 4.3 Infrastructure
 
