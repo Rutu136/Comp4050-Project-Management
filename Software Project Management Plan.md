@@ -28,8 +28,16 @@ Team Endgame
 
 1. [Project Overview](#1-project-overview)
     - [1.1 Purpose, Scope, and Objectives](#11-purpose-scope-and-objectives)
+        - [1.1.1 Purpose](#111-purpose)
+        - [1.1.2 Scope](#112-scope)
+        - [1.1.3 Objectives](#113-objectives)
     - [1.2 Assumptions, Constraints and Risks](#12-assumptions-constraints-and-risks)
+        - [1.2.1 Assumptions](#121-assumptions)
+        - [1.2.2 Constraints](122-constraints)
+        - [1.2.3 Risks](#123-risks)
     - [1.3 Project Deliverables](#13-project-deliverables)
+        - [1.3.1 System deliverables](#131-system-deliverables)
+        - [1.3.2 Document deliverables](#132-document-deliverables)
     - [1.4 Schedule and Budget Summary](#14-schedule-and-budget-summary)
     - [1.5 References](#15-references)
     - [1.6 Definitions and Acronyms](#16-definitions-and-acronyms)
@@ -67,14 +75,101 @@ Team Endgame
 # 1. Project Overview
 
 ## 1.1 Purpose, Scope, and Objectives
+
+### 1.1.1 Purpose
+The purpose of this document is to provide a formal reference of various components of the Online Virtual Phone System project. The document includes detailed information pertaining to the objectives, schedule, budget, team and resources that will be used to ensure project success. 
+
+### 1.1.2 Scope 
+The scope of this project involves providing a cloud-based solution that enables users to make calls over the internet without the need for a traditional physical phone line. The system will allow users to send and receive calls on both their desktop app and mobile app using a single business phone number. The project will include a mobile application that will establish and maintain connections between users to facilitate a voice call along with a user interface that will allow users to make a payment from within the application. 
+The project will not involve supplying the servers, hardware or operating systems required to run the system. Any other forms of communication (ie. video calling, photo sharing, messaging, etc.) will not be provided. Payment will be routed through a third party to complete the transaction. The ability to integrate with any other third party applications, aside from what was previously specified, will not be provided.
+
+### 1.1.3 Objectives
+The objectives of the Online Virtual Phone System are as follows:
+1. Our goal is to create a virtual phone system that will generate $18 million in revenue by the end of the first year of its release. We will do so by charging usage fees and using ad revenue to generate additional income. Increased revenue will allow for additional resources to be implemented to improve customer satisfaction via improved performance. 
+2. Build a robust and scalable system that allows for a minimum of 10k users to make calls simultaneously as this will allow for users across the country to access and utilize our service and increase profitability. We expect to have the project completed by October 2024. 
+3. Develop a secure and scalable cloud-based solution that allows seamless calling over the internet, with an expected 99.5% uptime. We expect to implement this with deployment of the MVP. This will ensure a high level of customer satisfaction that will improve customer retention and growth. 
+For a comprehensive overview of the project requirements, refer to the project SRS section 3. 
+
 ## 1.2 Assumptions, Constraints and Risks
+
+### 1.2.1 Assumptions
+-   All users will have the ability to connect to the internet with adequate speeds to allow full functionality of the      application.
+- All users will own the necessary hardware and operating systems to run the application
+- Users will have a credit card or PayPal to make online purchases
+- Users will be familiar with one of the 4 languages provided
+
+### 1.2.2 Constraints
+- The project is constrained to be completed with a time frame of 13 weeks for a Minimum Viable Product (MVP) and further 1 year for a full system, Any changes to the timeline will be discussed with the client.
+- The budget of $120K for MVP and $500K for the whole project. Any changes to the budget will be discussed with the client.
+- The system must comply with all the regulatory requirements of the country of deployment.
+- The system will rely on the availability of the IP network for communication.
+- The system must be scalable for future growth. 
+
+### 1.2.3 Risks
+
+|||
+|----|----|
+| Security and Access | Implement robust security measures as encryption and authentication |
+| Data Loss | Use checksums and data validation techniques to detect and prevent data corruption. |
+| Call Quality and Latency | Use a reliable and fast IP network to ensure call quality and low latency. |
+| Network Overload | Use a scalable system to handle the load and prevent network overload. |
+| Billing Errors | Implement accurate mathematical algorithms to calculate the bill and provide bill auditing.|
+
 ## 1.3 Project Deliverables
+
+The following deliverables are expected to be completed and deployed by mid-January 2024. The client documentation and user manual will be available in digital format. The software will be available for download online and on all major app stores. 
+
+### 1.3.1 System deliverables
+
+A working system will be ready for deployment by mid January. The system will offer full functionality of the requirements specified. For a comprehensive list of the software requirements refer to the Software Requirements Specification. 
+The software will be distributed on all major digital distribution platforms. 
+
+### 1.3.2 Document deliverables 
+
+There are two categories of documents, documents for client use and documents for administrative purposes. The documents intended for clients include client documentation and user manuals. The project and administrator documentation will be for company use. All of the previously mentioned documents will be completed by mid-December 2024. 
+There are also the following documents that will be used by the team, including the Project Charter, SRS, Risk Assessment, Project Management Plan, WBS, Gantt and PERT diagrams. Most of which have been completed and are available on the team Github repository.
+
 ## 1.4 Schedule and Budget Summary
+
+Below is a summary of the schedule and budget for the project.
+
+| Project Milestone | Project Artifact | Due Date |
+|----|----|----|
+| Project Management | Charter, SRS, Risk Management | 09/27/2023 |
+| Interface Design | Interface Prototype | 10/11/2023 |
+|Frontend Development | System in progress |10/17/2023 |
+|Backend Development| System in progress| 11/02/2023|
+|Testing| System delivery| 12/13/2023|
+|Project Deployment| Training modules| 01/10/2024|
+|Project Closure| User and admin documentation, feedback| 01/15/2024|
+
 ## 1.5 References
+
+Below is a list of documents and other sources of information referenced in this Plan:
+- Project Charter for section 1.1 - 1.3
+- SRS for section 1.6 
+- Gantt.png for section 1.4*
+
+    *For a comprehensive overview of the project schedule, refer to this document
+
 ## 1.6 Definitions and Acronyms
 
+Below is a list of all terms and acronyms required to properly understand this Plan:
+
+|Term | Definition, Acronym or Abbreviations|
+| ---- | ---- |
+|SRS |Software Requirement Specification|
+|OS|Operating System|
+|GUI|Graphical User Interface|
+|MFA|Multi-Factor Authentication|
+|OVPS|Online Virtual Phone System|
+|CRM|Customer Relationship Management|
+|VoIP|Voice over Internet Protocol|
+
 # 2. Project Organization
+
 ## 2.1 Organizational structure
+
 ### 2.1.1 External structure
 ![Alt text](external.png)
 1. Billing Department
