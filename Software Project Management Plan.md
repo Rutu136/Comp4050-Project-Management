@@ -572,13 +572,111 @@ The budget for the project is estimated to be $500,000. The budget is allocated 
 
 
 # 4. Technical Process Plans
+
 ## 4.1 Process Model
+For the Online Virtual Phone System project, we're implementing an iterative and incremental approach. Each development stage will represent a complete cycle, ensuring timely delivery of specific system functionalities. Flexibility is key; this structure allows for ongoing reassessment and adjustments by our team and clients alike.
+
+Adopting the Team Software Process (TSP) model, tailored for our project, guides our team's software development effectively. We'll outline each project phase with set start and finish dates, and clear objectives, ensuring a focused and adaptable development process for the Online Virtual Phone System.
+
+| Phase | Start and Finish Dates | Phase Goals |
+| ----- | ----- | ----- |
+Startup | 12/09/2023 - 27/09/2023| - Initial team formation and role assignment. <br> - Understanding project scope and requirements. <br> - Development of the project strategy.
+Planning| 15/09/2023 - 27/09/2023| - Detailed planning of the software development process.<br> -Creation of essential documents like Project charter, SRS, SPMP. <br> - Resource allocation and risk assessment.
+Development Phase 1| 28/09/2023 - 17/10/2023| - Development of core functionalities and features.<br> - Regular testing and feedback integration.<br> - Iterative improvement based on team and stakeholder feedback.
+Development Phase 2| 17/10/2023 - 01/11/2023|- Continued development with additional features. <br> - Enhanced testing and quality assurance processes. <br> - Preparation of initial deployment.
+Testing & Integration| 02/11/2023 - 03/01/2024|- Comprehensive testing of all functionalities. <br> - Integration of different software components.<br> - Documentation Bug fixing and optimization.
+Deployment & Review| 03/01/2024 - 13/01/2024| - Deployment of the software in the target environment. <br> - Collection of feedback for future improvements.
+Project closure| 13/01/2024 - 15/01/2024 | - Ensure all project components are finalized and meet requirements. <br> - Transition the system to the client with essential training. <br> - Conduct a brief project review and obtain final approvals.
+
+
 ## 4.2 Methods, Tools, and Techniques
+For the development of our Online Virtual Phone System (OVPS), we have employed an agile methodology, ensuring flexibility and an iterative process throughout the project lifestyle. Our team has utilized GitHub for version control, enabling effective collaboration, code reviews, and management of changes.
+
+The primary programming language chosen for development is Python, known for its readability and efficiency. The development environment is supported by a variety of integrated development Environments (IDEs) with a preference for Visual Studio code due to its versatility and comprehensive support for Python.
+
+Our team has established a practice of peer reviews for coach submissions, and ensuring that all contributions meet our defining coding standards and quality expectations before integration into the project.
+
+Documentation is a critical part of our process, involving user manuals, and troubleshooting guides, which are designed to be comprehensive for developers and end-users.
+
+To manage the evolution of our system effectively, we maintain detailed records of system versions, updates, and modifications. This version control process is crucial for addressing future issues or implementing rollbacks if necessary.
+
+Finally, customer support is integral to our operations, with a dedicated helpdesk and chat support available to assist users with any queries, issues, or difficulties they encounter while using OVPS.
+This structured approach to development, paired with our choice of tools and rigorous quality practices, underscores our commitment to delivering a high-quality, user-centric product.
+
 ## 4.3 Infrastructure
+
+The OVPS project will leverage existing infrastructure provided by the client. This includes the use of pre-existing servers and hardware capable of supporting the web-based application. The development team will utilize their own workstations and tools, including software development environments like Visual Studio Code, and will coordinate using version control systems such as GitHub for source code management. The project does not require the team to supply any additional server hardware or operating systems, and the product is designed to function within the client's current technical ecosystem. Any required payments as part of the product's functionality will be handled through a designated third-party service, and no integration with other third-party applications, outside of those specified, will be implemented.
+
 ## 4.4 Product Acceptance
+
+For the Online Virtual Phone System project, client approval is essential at each phase, and they would also sign the acceptance documents. Post-phase completion, the client will perform an installation test and assess the system’s performance, which could potentially lead to changes to the system/project. The procedure for implementing these changes is detailed in Section 3.3.1.
 
 # 5. Supporting Process Plans
 ## 5.1 Documentation
+Plans for generating non-deliverable and deliverable project documentation will adhere to the following structure:
+- List of Documents to be Prepared:
+    - Project Charter
+    - Software Requirements Specification (SRS)
+    - Design specifications
+    - Development and implementation plan
+    - Quality assurance plan
+    - User manuals
+    - Test plans are reports
+    - Release notes
+    - Training materials
+    - Maintenance and support guide 
+- Controlling templates or standard for each document
+    - IEEE standards for SRS and design specifications
+    - Company- specific templates for implementation plan and QA plan
+    - User manuals following the Microsoft manual of style
+    - Test plans adhering to ISTQB standards
+- who will prepare each document:
+    - Project manager: project Charter, implementation plan
+    - System analyst: SRS
+    - Design team: design specifications
+    - QA team: QA plan, test plans and reports
+    - Technical writers: user manuals, release notes, training materials
+    - Support team: maintenance and support guide
+- who will review each document:
+    - Project sponsor and senior leadership: project charter
+    - Project manager and design team: SRS, design specifications
+    - QA lead: QA plan, test plans and reports
+    - End user and client representatives: user manuals, training materials
+    - Item department: maintenance and support guide
+- Due dates for review copies:
+    - SRS and design specifications column two weeks before the end of the planning phase
+    - QA plan and test plans: one week before testing phase
+    - User manuals and training materials: 3 weeks before deployment
+- Due dates for initial baseline versions:
+    - Project Charter: at the end of the initiating phase
+    - SRS and Design Specifications: at the end of the design phase
+    - QA Plan: at the beginning of the execution phase
+    - Test Plans and Reports: upon completion of each major testing cycle
+    - User Manuals: with MVP release
+    - Training Materials: 2 weeks before user training starts
+- A distribution list for review copies and baseline
+    - Project Sponsor and senior leadership: 2 copies each of all strategic documents
+    - Project Manager: 3 copies each of all documents
+    - Development and QA
+
 ## 5.2 Quality Assurance
+
+The Quality assurance into (QA) plan for the online virtual phone system project encompasses a set of activities designed to ensure that the project adheres to its defined processes, standards, and requirements specified in the SRS, the project management plan, and support plans. This plan is part of a separate document, the online virtual phone system quality assurance plan, and will be maintained as such.
+
+**Quality assurance procedures:**
+- Analysis:  conduct static analysis of code and designs to identify potential quality issues early in the development lifecycle
+- Inspection: regularly inspect project deliverables and work products for conformance to project standards and specifications.
+- Review: formal reviews of project masters and deliverables, such as requirements reviews design reviews, and code reviews.
+- Audits: periodic audits of project processes and products to ensure adherence to agreed-upon standards and practices.
+- Assessment: assessments of project performance and product quality against defined metrics and criteria.
+
+**Relationship Among Processes:**
+- Quality assurance and verification and validation (V&V): QA activities will be conducted in tandem with V&V processes to ensure that all aspects of the project made the requirements and function correctly.
+Review and audit column reviews to be part of the regular QA process while audit will be scheduled at key project milestones to ensure ongoing compliance with the project plan.
+- Configuration management QA will work closely with configuration management and ensure that all changes to the project artifacts are tracked and reviewed for quality implications.
+- System engineering QA processes we integrated with system engineering efforts to ensure that the system is developed according to the specified architectural and design standards.
+- Assessments: continuous assessment of the QA processes themselves will be part of the plan ensuring that the QA activities are effective and improve over time.
+
+The QA plan includes specific responsibilities for the QA team, such as monitoring adherence to the process, identifying any divisions from the quality standards, and recommending improvements. The plan will also detail the process for handling any quality issues identified, including the escalation process for critical quality problems.
 
 # 6. Additional Plans
