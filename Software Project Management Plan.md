@@ -268,17 +268,17 @@ Project re-estimation plan with method and tools used for cost, schedule and res
 
 ### 3.1.2 Staffing
 
-1. The staff required to manage the project are as follows:
+The staff required to manage the project are as follows:
 
-    - 1 Project Manager
-    - 4 Developers
-    - 1 Database Administrator
-    - 2 UX/UI Designers
-    - 2 System Managers
-    - 1 IT Administrator
-    - 1 Quality Assurance Engineer
+- 1 Project Manager
+- 4 Developers
+- 1 Database Administrator
+- 2 UX/UI Designers
+- 2 System Managers
+- 1 IT Administrator
+- 1 Quality Assurance Engineer
 
-2. Staff and Skill Levels required at each phase of the project are as follows: 
+Staff and Skill Levels required at each phase of the project are as follows: 
 
 | Project Phase          | Personnel                   | Skill Level               |  Number of Employees Needed| 
 |------------------------|-----------------------------|---------------------------|----------------------------|
@@ -307,29 +307,29 @@ Project re-estimation plan with method and tools used for cost, schedule and res
 |                         | Quality Assurance Engineer | Intermediate              |1                           |
 |                         | System Managers            | Intermediate              |2                           |
 
-3. Duration of Personnel Assignment:
+Duration of Personnel Assignment:
 
-    - The project manager will be assigned to the project for the entire duration of the project.
-    - The senior developers will be assigned to the project for the entire duration of the project.
-    - The intermediate developers will be assigned to the project for the development phase of the project.
-    - The intermediate UX/UI designers will be assigned to the project for the design phase of the project.
-    - The senior UX/UI designers will be assigned to the project for the entire duration of the project.
-    - The database administrator will be assigned to the project for the entire duration of the project.
-    - The IT administrator will be assigned to the project at the beginning of the development phase of the project.
-    - The quality assurance engineer will be assigned to the project at the beginning of the testing phase of the project.
-    - The system managers will be assigned to the project for the entire duration of the project. 
+- The project manager will be assigned to the project for the entire duration of the project.
+- The senior developers will be assigned to the project for the entire duration of the project.
+- The intermediate developers will be assigned to the project for the development phase of the project.
+- The intermediate UX/UI designers will be assigned to the project for the design phase of the project.
+- The senior UX/UI designers will be assigned to the project for the entire duration of the project.
+- The database administrator will be assigned to the project for the entire duration of the project.
+- The IT administrator will be assigned to the project at the beginning of the development phase of the project.
+- The quality assurance engineer will be assigned to the project at the beginning of the testing phase of the project.
+- The system managers will be assigned to the project for the entire duration of the project. 
 
-4. Sources of Personnel:
+Sources of Personnel:
 
-    - The project manager will be transferred from within the organization.
-    - The senior developers will be transferred from within the organization.
-    - The senior UX/UI designers will be transferred from within the organization.
-    - The intermediate developers will be hired on contract from outside the organization.
-    - The intermediate UX/UI designers will be hired on contract from outside the organization.
-    - The database administrator will be hired from outside the organization.
-    - The IT administrator will be hired from outside the organization.
-    - The quality assurance engineer will be hired on contract from outside the organization.
-    - The system managers will be hired from outside the organization.        
+- The project manager will be transferred from within the organization.
+- The senior developers will be transferred from within the organization.
+- The senior UX/UI designers will be transferred from within the organization.
+- The intermediate developers will be hired on contract from outside the organization.
+- The intermediate UX/UI designers will be hired on contract from outside the organization.
+- The database administrator will be hired from outside the organization.
+- The IT administrator will be hired from outside the organization.
+- The quality assurance engineer will be hired on contract from outside the organization.
+- The system managers will be hired from outside the organization.        
 
 
 ### 3.1.3 Resource Acquisition
@@ -416,21 +416,21 @@ The resource acquisition process for the OVPS project involves the following ste
 
 #### 3.2.2.1 Schedule Milestones:
 
-1. Key schedule milestones have been identified to assess the progress of the project, they are as followed: 
+Key schedule milestones have been identified to assess the progress of the project, they are as followed: 
 
-    - The completion of the project charter
-    - SRS
-    - Project Planning
-    - Risk Assessment
-    - Interface Prototype Design
-    - Software Development
-    - Testing
-    - Documentation
-    - Training
-    - Deployment
-    - Project Closure
+- The completion of the project charter
+- SRS
+- Project Planning
+- Risk Assessment
+- Interface Prototype Design
+- Software Development
+- Testing
+- Documentation
+- Training
+- Deployment
+- Project Closure
 
-2. These milestones serve as a basis for project monitoring and control.
+These milestones serve as a basis for project monitoring and control.
 
 
 ### 3.2.3 Resource Allocation
@@ -514,26 +514,25 @@ The budget for the project is estimated to be $500,000. The budget is allocated 
 
 ### 3.3.1 Requirements Control
 
-1. Requirements changes are reported and controlled through the following steps:
-    - Identify the change request
-    - Analyze the impact of the change request
-    - Approve or reject the change request
-    - Implement and Validate the change request
-    - Update the requirements documentation
+Requirements changes are reported and controlled through the following steps:
+- Identify the change request
+- Analyze the impact of the change request
+- Approve or reject the change request
+- Implement and Validate the change request    - Update the requirements documentation
 
-2. The impact of requirement changes is assessed based on the following factors:
-    - Project Schedule
-    - Project Budget
-    - Project Scope
-    - Project Quality
-    - Project Resources
-    - Project Risks
-    - Project Stakeholders
-    - Project Deliverables
-    - Project Documentation
-    - Project Training
-    - Project Deployment
-    - Project Closure 
+The impact of requirement changes is assessed based on the following factors:
+- Project Schedule
+- Project Budget
+- Project Scope
+- Project Quality
+- Project Resources
+- Project Risks
+- Project Stakeholders
+- Project Deliverables
+- Project Documentation
+- Project Training
+- Project Deployment
+- Project Closure 
 
 ### 3.3.2 Schedule Control
 1. Schedule Control Process:
@@ -598,17 +597,27 @@ Project closure| 13/01/2024 - 15/01/2024 | - Ensure all project components are f
 
 
 ## 4.2 Methods, Tools, and Techniques
-For the development of our Online Virtual Phone System (OVPS), we have employed an agile methodology, ensuring flexibility and an iterative process throughout the project lifestyle. Our team has utilized GitHub for version control, enabling effective collaboration, code reviews, and management of changes.
+For our Online Virtual Phone System (OVPS), we have employed following methods, tools, and techniques to ensure a high-quality product that meets the client's requirements.
 
-The primary programming language chosen for development is Python, known for its readability and efficiency. The development environment is supported by a variety of integrated development Environments (IDEs) with a preference for Visual Studio code due to its versatility and comprehensive support for Python.
+1. Development Methodology: 
+    - Employed an agile methodology, ensuring flexibility and an iterative process throughout the project lifestyle.
 
-Our team has established a practice of peer reviews for coach submissions, and ensuring that all contributions meet our defining coding standards and quality expectations before integration into the project.
+2. Version Control:
+    - Utilized GitHub for version control, enabling effective collaboration, code reviews, and management of changes.
+    - Detailed records of system versions, updates, and modifications are maintained to manage the evolution of our system effectively.
 
-Documentation is a critical part of our process, involving user manuals, and troubleshooting guides, which are designed to be comprehensive for developers and end-users.
+3. Programming Language:
+    - Chosen Python as the primary programming language for development, known for its readability and efficiency.
 
-To manage the evolution of our system effectively, we maintain detailed records of system versions, updates, and modifications. This version control process is crucial for addressing future issues or implementing rollbacks if necessary.
+4. Development Environment:
+    - Supported by a variety of integrated development Environments (IDEs) with a preference for Visual Studio code due to its versatility and comprehensive support for Python.
 
-Finally, customer support is integral to our operations, with a dedicated helpdesk and chat support available to assist users with any queries, issues, or difficulties they encounter while using OVPS.
+5. Coding Standards:
+    - Established a practice of peer reviews for coach submissions, and ensuring that all contributions meet our defining coding standards and quality expectations before integration into the project.
+
+6. Documentation:
+    - Documentation and user manuals designed to be comprehensive for developers and end-users.
+
 This structured approach to development, paired with our choice of tools and rigorous quality practices, underscores our commitment to delivering a high-quality, user-centric product.
 
 ## 4.3 Infrastructure
