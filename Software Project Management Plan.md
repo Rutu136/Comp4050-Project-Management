@@ -121,7 +121,7 @@ For a comprehensive overview of the project requirements, refer to the project S
 
 ### 1.2.2 Constraints
 - The project is constrained to be completed with a time frame of 13 weeks for a Minimum Viable Product (MVP) and further 1 year for a full system, Any changes to the timeline will be discussed with the client.
-- The budget for the full project is $500K. Any changes to the budget will be discussed with the client.
+- The budget of $120K for MVP and $500K for the whole project. Any changes to the budget will be discussed with the client.
 - The system must comply with all the regulatory requirements of the country of deployment.
 - The system will rely on the availability of the IP network for communication.
 - The system must be scalable for future growth. 
@@ -149,6 +149,7 @@ The software will be distributed on all major digital distribution platforms.
 
 There are two categories of documents, documents for client use and documents for administrative purposes. The documents intended for clients include client documentation and user manuals. The project and administrator documentation will be for company use. All of the previously mentioned documents will be completed by mid-December 2024. 
 There are also the following documents that will be used by the team, including the Project Charter, SRS, Risk Assessment, Project Management Plan, WBS, Gantt and PERT diagrams. Most of which have been completed and are available on the team Github repository.
+<div style="page-break-after: always;"></div>
 
 ## 1.4 Schedule and Budget Summary
 
@@ -179,12 +180,16 @@ Below is a list of all terms and acronyms required to properly understand this P
 
 |Term | Definition, Acronym or Abbreviations|
 | ---- | ---- |
+|SPMP | Software Project Management Plan|   
 |SRS |Software Requirement Specification|
-|MVP|Minimum Viable Product|
-|PERT|Program Evaluation Review Technique|
+|OS|Operating System|
+|GUI|Graphical User Interface|
 |MFA|Multi-Factor Authentication|
 |OVPS|Online Virtual Phone System|
-|TSP|Team Software Process|
+|CRM|Customer Relationship Management|
+|VoIP|Voice over Internet Protocol|
+
+<div style="page-break-after: always;"></div>
 
 # 2. Project Organization
 
@@ -196,10 +201,10 @@ Below is a list of all terms and acronyms required to properly understand this P
     - Manages billing, invoicing, and payment processing for the virtual phone system.
     - Collaborates with the project team for billing system integration.
 2. Third Parties
-    - External hardware suppliers
-    - API provider that will handle payment.
+    - External service providers, suppliers, or consultants such as APIs provider for payment.
 3. Government Telecommunication Authorities
-    - Regulatory bodies and/or authorities that oversee licensing and ensure the project complies with laws and regulations. 
+    - Regulatory bodies or authorities overseeing compliance, licensing, and watching on  laws and regulations.
+    - Ensures the project complies with legal and regulatory frameworks.
 
 ### 2.1.2 Internal structure
 ![Alt text](internal.png)
@@ -214,7 +219,7 @@ Below is a list of all terms and acronyms required to properly understand this P
     - Focuses on testing functionalities, identifying bugs, reporting back to developer teams and ensuring the software meets quality standards.
     - Works closely with developers to resolve issues.
 4. System Managers
-    - Manage the day-to-day operations of the online virtual phone system.
+    - Manage the day- to-day operations of the online virtual phone system.
     - Handle configurations, user permissions, and system maintenance.
 5. IT Administrators
     - Provides technical support, infrastructure maintenance, and resolves technical issues.
@@ -227,14 +232,15 @@ Below is a list of all terms and acronyms required to properly understand this P
 
 | Project Role | Project Responsibilities                                                                                                            |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Project Sponsor          | - A project sponsor who acts as the project’s champion, providing direction, financial resources, and support to the team. In the context of this document, this person: <br> &nbsp;&nbsp;- Approves the request for funding <br> &nbsp;&nbsp;- Approves the project scope as defined in this document <br> &nbsp;&nbsp;- Sets the priority of the project relative to other projects in their area of responsibility |
+| Project Sponsor          | - A project sponsor who acts as the project’s champion, providing direction, financial resources, and support to the team. In the context of this document, this person: <br> &nbsp;&nbsp;- Approves the request for funding <br> &nbsp;&nbsp;- Approves the project scope represented in this document <br> &nbsp;&nbsp;- Sets the priority of the project relative to other projects in their area of responsibility |
 | Project Manager          | - A project manager is responsible for the day-to-day management of the project and has specific accountability for: <br> &nbsp;&nbsp;- Managing the project within the approved constraints of scope, quality, time, and cost <br> &nbsp;&nbsp;- Delivering the specified requirements, deliverables, and ensuring customer satisfaction <br> &nbsp;&nbsp;- Providing critical information to team members and stakeholders to keep the project on track |
 | Developer                | - Responsibilities include day-to-day development and maintenance of the project, including coding and designing.                    |
-| Quality Assurance Engineer| - Responsible for: <br> &nbsp;&nbsp;- Testing the quality of the system <br> &nbsp;&nbsp;- Identifying bugs <br> &nbsp;&nbsp;- Ensuring delivery of a high-quality system that exceeds user expectations |
+| Quality Assurance Engineer| - Responsible for: <br> &nbsp;&nbsp;- Testing the Quality of the system <br> &nbsp;&nbsp;- Identifying bugs <br> &nbsp;&nbsp;- Ensuring delivery of a high-quality system that exceeds user expectations |
 | System Managers          | - Responsibilities involve managing: <br> &nbsp;&nbsp;- Online Virtual Phone System software <br> &nbsp;&nbsp;- User accounts and their personal information <br> &nbsp;&nbsp;- User authentication and Troubleshooting |
 | IT Administrator         | - Tasks include: <br> &nbsp;&nbsp;- Hardware maintenance <br> &nbsp;&nbsp;- Security Risk management <br> &nbsp;&nbsp;- Network Management <br> &nbsp;&nbsp;- Infrastructure Planning <br> &nbsp;&nbsp;- Developer Support <br> &nbsp;&nbsp;- User Support |
 | Users                    | - Provide feedback on user experience and system functionalities.                                                                       |
 
+<div style="page-break-after: always;"></div>
 
 # 3. Managerial Process Plans
 ## 3.1 Start-up Plan
@@ -375,6 +381,8 @@ The resource acquisition process for the OVPS project involves the following ste
 - Equipment: Acquire hardware during the initial phase to facilitate development.
 - Software: Acquire licenses and necessary software tools during the early stages of the project.
 
+<div style="page-break-after: always;"></div>
+
 ### 3.1.3.4 Constraints
 
 - Budget limitations may impact the scale or timing of resource acquisition.
@@ -412,6 +420,8 @@ The resource acquisition process for the OVPS project involves the following ste
 | 26 | Deployment | Jan 01, 2023 | Jan 10, 2023 | - Successful deployment of the system in the specified environment. | Training | Project Feedback |
 | 27 | Project Feedback | Jan 11, 2023 | Jan 13, 2023 | - Feedback collection from users and stakeholders. <br> - Work on the feedback to improve the system if needed. | Deployment | Project Closure |
 | 28 | Project Closure | Jan 13, 2023 | Jan 15, 2023 | - Completion of all project deliverables and activities. <br> - Formal closure documentation prepared and approved. | Project Feedback | N/A |
+
+<div style="page-break-after: always;"></div>
 
 ### 3.2.2 Schedule Allocation
 1. Scheduling Relationships and Time-Sequencing Constraints:
@@ -590,6 +600,7 @@ The budget for the project is estimated to be $500,000. The budget is allocated 
         - Deployment process
         - Project closure process
 
+<div style="page-break-after: always;"></div>
 
 # 4. Technical Process Plans
 
@@ -640,6 +651,8 @@ The OVPS project will leverage existing infrastructure provided by the client. T
 ## 4.4 Product Acceptance
 
 For the Online Virtual Phone System project, client approval is essential at each phase, and they would also sign the acceptance documents. Post-phase completion, the client will perform an installation test and assess the system’s performance, which could potentially lead to changes to the system/project. The procedure for implementing these changes is detailed in Section 3.3.1.
+
+<div style="page-break-after: always;"></div>
 
 # 5. Supporting Process Plans
 ## 5.1 Documentation
@@ -708,6 +721,8 @@ Review and audit column reviews to be part of the regular QA process while audit
 - Assessments: continuous assessment of the QA processes themselves will be part of the plan ensuring that the QA activities are effective and improve over time.
 
 The QA plan includes specific responsibilities for the QA team, such as monitoring adherence to the process, identifying any divisions from the quality standards, and recommending improvements. The plan will also detail the process for handling any quality issues identified, including the escalation process for critical quality problems.
+
+<div style="page-break-after: always;"></div>
 
 # 6. Additional Plans
 - Interactive training programs for employees and new users to learn how to use the system. This will be an adjunct to the user manual already discussed in the plan with the intention of shortening the learning curve associated with navigating the UI and learning how to effectively use the software. 
